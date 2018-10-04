@@ -1,0 +1,175 @@
+.navbar-default{
+  background-color: white;
+}
+.navbar-text{
+  width: 1000px;
+  height: auto;
+}
+.container-fluid{
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  margin-top: -20px;
+}
+.content1{
+  background-color: #f5f5f5;
+  margin:5px;
+}
+#candidate1, #candidate2, #total{
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  max-width: 30%;
+}
+.content1{
+  margin-top: 5px;
+}
+.periodbtn {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.period-dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.candidate-text{
+  margin-top: 15px;
+}
+.dropdown-content a:hover {background-color: #ddd; color: inherit; text-decoration: none;}
+
+.period-dropdown:hover .dropdown-content {display: block;}
+
+.period-dropdown:hover .periodbtn {background-color: white;}
+#sidebar-icon{
+  font-size:20px;
+  cursor: pointer;
+}
+#job-chart1, #job-chart2, #job-chart3, #job-chart4, #job-chart5, #job-chart6, #job-chart3-1, #job-chart3-2, #job-chart3-3{
+  width: 250px;
+  height: 200px;
+  float: right;
+  margin-top: -41px;
+  position: relative;
+}
+#total-text{
+  margin-top: 15px;
+}
+.percentage{
+  font-size:15px;
+}
+#job-chart2, #job-chart3, #job-chart3-2, #job-chart3-3{
+  margin-top: -164px;
+}
+#job-chart4, #job-chart5, #job-chart6{
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+}
+.highcharts-axis-labels highcharts-xaxis-labels {
+  color: white;
+}
+.content2-text{
+  font-size: 40px;
+  font-weight: bold;
+  text-align:left;
+  margin-top: 75px;
+}
+.content3{
+  margin-top: 30px;
+}
+.content5{
+  margin-top: 30px;
+  border-radius: 5px;
+}
+#content5-chart{
+  width: 1240px;
+  height: 500px;
+}
+.content4-text{
+  padding:10px;
+  text-align:center;
+}
+.president-photos,#number, #trophy, #losing, #comparison{
+  width: 110px;
+  border-radius: 50%;
+  height: 130px;
+  background-color: #f6f6f6;
+  margin: 10px;
+  margin-left: 40px;
+}
+#number{
+  text-align:center;
+  font-weight:bold;
+  font-size:35px;
+  padding-top: 40px;
+}
+.sub-content5{
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+.sub-content5-big{
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+#content3, #content5 {
+  height: 400px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+#gradient-0 stop {
+  stop-color: #7cb5ec;
+}
+#gradient-0 stop[offset="0"] {
+  stop-opacity: 0.75;
+}
+#gradient-0 stop[offset="1"] {
+  stop-opacity: 0;
+}
+#gradient-1 stop {
+  stop-color: #cccccc;
+}
+#gradient-1 stop[offset="0"] {
+  stop-opacity: 0;
+}
+#gradient-1 stop[offset="1"] {
+  stop-opacity: 0.25;
+}
+
+/* Apply the gradients */
+.highcharts-plot-background {
+  fill: url(#gradient-1);
+}
+.highcharts-color-0 .highcharts-area {
+  fill-opacity: 1;
+  fill: url(#gradient-0);
+}

