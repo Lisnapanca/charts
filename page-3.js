@@ -309,3 +309,171 @@ var chart = AmCharts.makeChart( 'content2-chart2', {
     "enabled": true
   }
 } );
+var chart = AmCharts.makeChart( 'content2-chart3', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart4', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart5', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart6', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart7', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart8', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart9', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
+var chart = AmCharts.makeChart( 'content2-chart10', {
+  "type": "pie",
+  "theme": "light",
+  "dataProvider": [ {
+    "title": "New",
+    "value": 4852
+  }, {
+    "title": "Returning",
+    "value": 9899
+  } ],
+  "titleField": "title",
+  "valueField": "value",
+  "labelRadius": 5,
+
+  "radius": "42%",
+  "innerRadius": "60%",
+  "labelText": "[[title]]",
+  "export": {
+    "enabled": true
+  }
+} );
