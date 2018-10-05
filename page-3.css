@@ -1,3 +1,4 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
 .navbar-default{
   background-color: white;
 }
@@ -167,7 +168,7 @@ thead{
   background-color: transparent;
 }
 
-@import 'https://code.highcharts.com/css/highcharts.css';
+
 
 #content3, #content5 {
   height: 400px;

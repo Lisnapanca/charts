@@ -1,11 +1,3 @@
-<div id="container"></div>
-<script src="js/highmaps.js"></script>
-<script src="js/exporting.js"></script>
-<script src="js/id-all.js"></script>
-<script>
-    // Prepare demo data
-// Data is joined to map using value of 'hc-key' property by default.
-// See API docs for 'joinBy' for more info on linking data and map.
 var data = [
     ['id-3700', 0],
     ['id-ac', 1],
@@ -84,5 +76,3 @@ Highcharts.mapChart('container', {
         }
     }]
 });
-
-</script>
