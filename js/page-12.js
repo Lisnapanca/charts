@@ -57,7 +57,66 @@ Highcharts.chart('content3', {
         ]
     }]
 });
-Highcharts.chart('job-chart3-1', {
+Highcharts.chart('content4', {
+
+    title: {
+        text: ''
+    },
+
+    xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+    },
+    credits: {
+          enabled: false
+      },
+    defs: {
+        gradient0: {
+            tagName: 'linearGradient',
+            id: 'gradient-0',
+            x1: 0,
+            y1: 0,
+            x2: 0,
+            y2: 1,
+            children: [{
+                tagName: 'stop',
+                offset: 0
+            }, {
+                tagName: 'stop',
+                offset: 1
+            }]
+        },
+
+        gradient1: {
+            tagName: 'linearGradient',
+            id: 'gradient-1',
+            x1: 0,
+            y1: 0,
+            x2: 0,
+            y2: 1,
+            children: [{
+                tagName: 'stop',
+                offset: 0
+            }, {
+                tagName: 'stop',
+                offset: 1
+            }]
+        }
+    },
+
+    series: [{
+        type: 'area',
+        keys: ['y', 'selected'],
+        data: [
+            [29.9, false],
+            [71.5, false],
+            [55.4, false],
+            [129.2, false],
+            [54.0, false],
+            [17.0, false],
+        ]
+    }]
+});
+Highcharts.chart('job-chart3-4', {
   title: {
         text: ''
     },
