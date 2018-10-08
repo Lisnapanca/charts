@@ -102,7 +102,6 @@
   margin-top: 30px;
 }
 .content5{
-  margin-top: 30px;
   border-radius: 5px;
 }
 #content5-chart{
@@ -110,8 +109,9 @@
   height: 500px;
 }
 .content4-text{
-  padding:10px;
   text-align:center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
   width: 110px;
@@ -128,14 +128,17 @@
   padding-top: 40px;
 }
 .sub-content5{
-  margin-top: 25px;
+  margin-top: 40px;
   border-radius: 5px;
   background-color: white;
 }
 .sub-content5-big{
-  margin-top: 25px;
-  border-radius: 10px;
-  background-color: transparent;
+  width: 1260px;
+  margin-top: 40px;
+  background-color: white;
+  max-width: 100%;
+  margin-left: 0px!important;
+  padding-top: 15px;
 }
 
 @import 'https://code.highcharts.com/css/highcharts.css';
@@ -173,9 +176,25 @@
   fill-opacity: 1;
   fill: url(#gradient-0);
 }
-.highcharts-series highcharts-series-0 highcharts-variwide-series highcharts-color-0 highcharts-tracker {
-  background-color: #ff9d00!important;
+.first{
+  color: green;
 }
-.highcharts-axis-labels .highcharts-xaxis-labels {
-  display: none!important;
+.second{
+  color: red;
+}
+.third{
+  color: red;
+}
+.content5-text{
+  font-size:15px;
+  margin-left: 15px;
+}
+.content5-right{
+  float: right;
+}
+.highcharts-tracker{
+
+}
+.highcharts-xaxis,.highcharts-yaxis{
+  display: none;
 }
