@@ -300,10 +300,10 @@ Highcharts.chart('content3', {
         }
     },
     series: [{
-        name: 'John',
+        name: 'candidate-1',
         data: [3, 4, 3, 5, 4, 10, 12]
     }, {
-        name: 'Jane',
+        name: 'candidate-2',
         data: [1, 3, 4, 3, 3, 5, 4]
     }]
 });
@@ -357,10 +357,10 @@ Highcharts.chart('content5-chart', {
         }
     },
     series: [{
-        name: 'John',
+        name: 'Candidate-1',
         data: [3, 4, 3, 5, 4, 10, 12]
     }, {
-        name: 'Jane',
+        name: 'Candidate-2',
         data: [1, 3, 4, 3, 3, 5, 4]
     }]
 });
