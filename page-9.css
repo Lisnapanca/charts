@@ -1,6 +1,7 @@
 @import 'https://code.highcharts.com/css/highcharts.css';
 .navbar-default{
   background-color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div a{
   display: none !important;
@@ -226,6 +227,7 @@ thead{
   background-color: white;
   padding:10px;
   margin:10px;
+  font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div{
   height: 200px;
@@ -241,4 +243,7 @@ thead{
   background-size: cover;
   width: auto;
   height: 920px;
+}
+.content-5{
+  font-family: 'Fjalla One', sans-serif;
 }

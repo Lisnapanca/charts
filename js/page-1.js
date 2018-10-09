@@ -39,7 +39,6 @@ Highcharts.chart('job-chart1', {
     ],
 
   }]
-
 });
 Highcharts.chart('job-chart2', {
   title: {
@@ -82,7 +81,6 @@ Highcharts.chart('job-chart2', {
     ],
 
   }]
-
 });
 Highcharts.chart('job-chart3', {
   title: {
@@ -125,7 +123,6 @@ Highcharts.chart('job-chart3', {
     ],
 
   }]
-
 });
 Highcharts.chart('job-chart4', {
   title: {
@@ -168,7 +165,6 @@ Highcharts.chart('job-chart4', {
     ],
 
   }]
-
 });
 Highcharts.chart('job-chart5', {
   title: {
@@ -211,7 +207,6 @@ Highcharts.chart('job-chart5', {
     ],
 
   }]
-
 });
 Highcharts.chart('job-chart6', {
   title: {
@@ -254,123 +249,143 @@ Highcharts.chart('job-chart6', {
     ],
 
   }]
-
 });
 Highcharts.chart('content3', {
-
+    chart: {
+        type: 'areaspline'
+    },
     title: {
-        text: ''
+        text: ' '
     },
-
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 150,
+        y: 100,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+    },
     xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+        categories: [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+        ],
+        plotBands: [{ // visualize the weekend
+            from: 4.5,
+            to: 6.5,
+            color: 'rgba(68, 170, 213, .2)'
+        }]
     },
-    credits: {
-          enabled: false
-      },
-    defs: {
-        gradient0: {
-            tagName: 'linearGradient',
-            id: 'gradient-0',
-            x1: 0,
-            y1: 0,
-            x2: 0,
-            y2: 1,
-            children: [{
-                tagName: 'stop',
-                offset: 0
-            }, {
-                tagName: 'stop',
-                offset: 1
-            }]
-        },
-
-        gradient1: {
-            tagName: 'linearGradient',
-            id: 'gradient-1',
-            x1: 0,
-            y1: 0,
-            x2: 0,
-            y2: 1,
-            children: [{
-                tagName: 'stop',
-                offset: 0
-            }, {
-                tagName: 'stop',
-                offset: 1
-            }]
+    yAxis: {
+        title: {
+            text: 'Fruit units'
         }
     },
-
+    tooltip: {
+        shared: true,
+        valueSuffix: ' units'
+    },
+    credits: {
+        enabled: false
+    },
+    plotOptions: {
+        areaspline: {
+            fillOpacity: 0.5
+        }
+    },
     series: [{
-        type: 'area',
-        keys: ['y', 'selected'],
-        data: [
-            [29.9, false],
-            [71.5, false],
-            [55.4, false],
-            [129.2, false],
-            [54.0, false],
-            [17.0, false],
-        ]
+        name: 'John',
+        data: [3, 4, 3, 5, 4, 10, 12]
+    }, {
+        name: 'Jane',
+        data: [1, 3, 4, 3, 3, 5, 4]
     }]
 });
 Highcharts.chart('content5-chart', {
-
+    chart: {
+        type: 'areaspline'
+    },
     title: {
-        text: ''
+        text: ' '
     },
-
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 150,
+        y: 100,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+    },
     xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+        categories: [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+        ],
+        plotBands: [{ // visualize the weekend
+            from: 4.5,
+            to: 6.5,
+            color: 'rgba(68, 170, 213, .2)'
+        }]
     },
-    credits: {
-          enabled: false
-      },
-    defs: {
-        gradient0: {
-            tagName: 'linearGradient',
-            id: 'gradient-0',
-            x1: 0,
-            y1: 0,
-            x2: 0,
-            y2: 1,
-            children: [{
-                tagName: 'stop',
-                offset: 0
-            }, {
-                tagName: 'stop',
-                offset: 1
-            }]
-        },
-
-        gradient1: {
-            tagName: 'linearGradient',
-            id: 'gradient-1',
-            x1: 0,
-            y1: 0,
-            x2: 0,
-            y2: 1,
-            children: [{
-                tagName: 'stop',
-                offset: 0
-            }, {
-                tagName: 'stop',
-                offset: 1
-            }]
+    yAxis: {
+        title: {
+            text: 'Fruit units'
         }
     },
-
+    tooltip: {
+        shared: true,
+        valueSuffix: ' units'
+    },
+    credits: {
+        enabled: false
+    },
+    plotOptions: {
+        areaspline: {
+            fillOpacity: 0.5
+        }
+    },
     series: [{
-        type: 'area',
-        keys: ['y', 'selected'],
-        data: [
-            [29.9, false],
-            [71.5, false],
-            [55.4, false],
-            [129.2, false],
-            [54.0, false],
-            [17.0, false],
-        ]
+        name: 'John',
+        data: [3, 4, 3, 5, 4, 10, 12]
+    }, {
+        name: 'Jane',
+        data: [1, 3, 4, 3, 3, 5, 4]
     }]
+});
+$( document ).ready(function() {
+  setTimeout(function(){
+    $(".highcharts-plot-bands-0").attr('id', 'chart-content3');
+  }, 500)
+});
+$( document ).ready(function() {
+  setTimeout(function(){
+    $(".highcharts-color-0").attr('id', 'chart-content2');
+  }, 500)
+});
+$( document ).ready(function() {
+  setTimeout(function(){
+    $(".highcharts-yaxis-grid").attr('id', 'line-chart');
+  }, 500)
+});
+$( document ).ready(function() {
+  setTimeout(function(){
+    $(".highcharts-yaxis-labels").attr('id', 'labels');
+  }, 500)
+});
+$( document ).ready(function() {
+  setTimeout(function(){
+    $(".highcharts-xaxis-labels").attr('id', 'label');
+  }, 500)
 });

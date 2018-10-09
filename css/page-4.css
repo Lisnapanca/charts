@@ -1,6 +1,11 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
 .navbar-default{
   background-color: white;
 }
+.amcharts-chart-div a{
+  display: none !important;
+}
+.amcharts-export-menu{display:none !important}
 .navbar-text{
   width: 1000px;
   height: auto;
@@ -59,6 +64,15 @@
 .candidate-text{
   margin-top: 15px;
 }
+.content9-text{
+  float: right;
+}
+table{
+  text-align: center;
+}
+thead{
+  background-color: #f5f5f5;
+}
 .dropdown-content a:hover {background-color: #ddd; color: inherit; text-decoration: none;}
 
 .period-dropdown:hover .dropdown-content {display: block;}
@@ -74,6 +88,13 @@
   float: right;
   margin-top: -41px;
   position: relative;
+}
+#job-chart3-6,#job-chart3-7{
+  width: 250px;
+  height: 200px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -32px;
 }
 #total-text{
   margin-top: 15px;
@@ -114,6 +135,15 @@
   text-align:center;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
+  width: 220px;
+  border-radius: 50%;
+  height: 250px;
+  background-color: #f6f6f6;
+  margin: 10px;
+  margin-left: 30px;
+  margin-top: 85px;
+}
+.candidate-photos, #trophy, #losing{
   width: 110px;
   border-radius: 50%;
   height: 130px;
@@ -138,7 +168,7 @@
   background-color: transparent;
 }
 
-@import 'https://code.highcharts.com/css/highcharts.css';
+
 
 #content3, #content5 {
   height: 400px;
@@ -172,4 +202,43 @@
 .highcharts-color-0 .highcharts-area {
   fill-opacity: 1;
   fill: url(#gradient-0);
+}
+#content2-chart9,#content2-chart10{
+  width: 220px;
+  border-radius: 50%;
+  height: 250px;
+  margin: 10px;
+  margin-top: 85px;
+}
+#content2-chart10{
+  margin-left: 200px;
+}
+.positive-dot, .negative-dot, .neutral-dot{
+  height: 25px;
+  width: 25px;
+  background-color: #0fb516;
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 6px;
+}
+.content-1,.content2,.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
+  background-color: white;
+  padding:10px;
+  margin:10px;
+}
+.amcharts-chart-div{
+  height: 200px;
+}
+.dot-group{
+  margin-top: 55px;
+}
+.content7-3{
+  margin-top: 75px;
+}
+.typography{
+  background-image: url('image/typo.jpg');
+  background-size: cover;
+  width: auto;
+  height: 920px;
 }

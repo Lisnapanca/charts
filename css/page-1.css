@@ -123,7 +123,7 @@
   font-family: 'Fjalla One', sans-serif;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
-  width: 130px;
+  width: 125px;
   border-radius: 50%;
   height: 150px;
   background-color: #f6f6f6;
@@ -215,6 +215,9 @@
 #content3-text{
   margin-top: 20px;
 }
-.highcharts-grid highcharts-yaxis-grid {
+#highcharts-dwttoaa-0 .highcharts-yaxis-labels,#chart-content3{
   display: none;
+}
+#chart-content2 {
+  fill: #ff8533;
 }

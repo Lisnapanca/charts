@@ -1,6 +1,7 @@
 @import 'https://code.highcharts.com/css/highcharts.css';
 .navbar-default{
   background-color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div a{
   display: none !important;

@@ -3,7 +3,7 @@ Highcharts.chart('content-1-chart', {
         type: 'column'
     },
     title: {
-        text: 'Social Media (%)'
+        text: ' '
     },
     credits: {
       enabled: false
@@ -25,7 +25,7 @@ Highcharts.chart('content-1-chart', {
     yAxis: {
         min: 0,
         title: {
-            text: 'Score'
+            text: ' '
         }
     },
     tooltip: {
@@ -52,7 +52,7 @@ Highcharts.chart('content-2-chart', {
         type: 'column'
     },
     title: {
-        text: 'Social Media (%)'
+        text: ' '
     },
     credits: {
       enabled: false
@@ -74,7 +74,7 @@ Highcharts.chart('content-2-chart', {
     yAxis: {
         min: 0,
         title: {
-            text: 'Score'
+            text: ' '
         }
     },
     tooltip: {
@@ -101,7 +101,7 @@ Highcharts.chart('content-3-chart', {
         type: 'column'
     },
     title: {
-        text: 'Social Media (%)'
+        text: ' '
     },
     credits: {
       enabled: false
@@ -123,7 +123,7 @@ Highcharts.chart('content-3-chart', {
     yAxis: {
         min: 0,
         title: {
-            text: 'Score'
+            text: ' '
         }
     },
     tooltip: {

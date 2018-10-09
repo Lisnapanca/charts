@@ -1,6 +1,7 @@
 @import 'https://code.highcharts.com/css/highcharts.css';
 .navbar-default{
   background-color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div a{
   display: none !important;
@@ -133,6 +134,7 @@ thead{
 .content4-text{
   padding:10px;
   text-align:center;
+  font-family: 'Fjalla One', sans-serif;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
   width: 220px;
@@ -167,15 +169,17 @@ thead{
   border-radius: 10px;
   background-color: transparent;
 }
-
-
-
+.content-4{
+  font-family: 'Fjalla One', sans-serif;
+}
 #content3, #content5 {
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
 }
-
+.content-6{
+  font-family: 'Fjalla One', sans-serif;
+}
 #gradient-0 stop {
   stop-color: #7cb5ec;
 }
@@ -222,10 +226,14 @@ thead{
   padding-left: 25px;
   padding-top: 6px;
 }
-.content-1,.content2,.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
+.content2,.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
   background-color: white;
   padding:10px;
   margin:10px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.content-1{
+  font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div{
   height: 200px;
