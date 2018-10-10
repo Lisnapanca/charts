@@ -41,7 +41,7 @@ Highcharts.chart('content-1-chart', {
         type: 'column'
     },
     title: {
-        text: ' '
+        text: 'Social Media(%)'
     },
     credits: {
       enabled: false
