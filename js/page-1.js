@@ -279,7 +279,7 @@ Highcharts.chart('content3', {
         plotBands: [{ // visualize the weekend
             from: 4.5,
             to: 6.5,
-            color: 'rgba(68, 170, 213, .2)'
+            color: 'rgba(255,133,51, .2)'
         }]
     },
     yAxis: {
@@ -301,9 +301,11 @@ Highcharts.chart('content3', {
     },
     series: [{
         name: 'candidate-1',
+        color: 'rgba(255,133,51,0.2)',
         data: [3, 4, 3, 5, 4, 10, 12]
     }, {
         name: 'candidate-2',
+        color: 'rgba(255,204,0,0.2)',
         data: [1, 3, 4, 3, 3, 5, 4]
     }]
 });
@@ -367,25 +369,25 @@ Highcharts.chart('content5-chart', {
 $( document ).ready(function() {
   setTimeout(function(){
     $(".highcharts-plot-bands-0").attr('id', 'chart-content3');
-  }, 500)
+  })
 });
 $( document ).ready(function() {
   setTimeout(function(){
     $(".highcharts-color-0").attr('id', 'chart-content2');
-  }, 500)
+  })
 });
 $( document ).ready(function() {
   setTimeout(function(){
     $(".highcharts-yaxis-grid").attr('id', 'line-chart');
-  }, 500)
+  })
 });
 $( document ).ready(function() {
   setTimeout(function(){
     $(".highcharts-yaxis-labels").attr('id', 'labels');
-  }, 500)
+  })
 });
 $( document ).ready(function() {
   setTimeout(function(){
     $(".highcharts-xaxis-labels").attr('id', 'label');
-  }, 500)
+  })
 });

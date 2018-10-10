@@ -180,20 +180,10 @@
 }
 
 /* Apply the gradients */
-.highcharts-plot-background {
-  fill: url(#gradient-1);
-}
-.highcharts-color-0 .highcharts-area {
-  fill-opacity: 1;
-  fill: url(#gradient-0);
-}
 .first{
   color: green;
 }
-.second{
-  color: red;
-}
-.third{
+.second,.third{
   color: red;
 }
 .content5-text{
@@ -203,21 +193,30 @@
 .content5-right{
   float: right;
 }
-.highcharts-tracker{
-
-}
-.highcharts-xaxis,.highcharts-yaxis{
-  display: none;
-}
 #period{
-  margin-left: 960px;
+  margin-left: 0px;
 }
 #content3-text{
   margin-top: 20px;
 }
-#highcharts-dwttoaa-0 .highcharts-yaxis-labels,#chart-content3{
+.highcharts-plot-bands-0{
   display: none;
 }
 #chart-content2 {
   fill: #ff8533;
+}
+#job-chart2 #chart-content2 {
+  fill: #ffcc00;
+}
+#job-chart3 #chart-content2 {
+  fill: #48ab81;
+}
+#job-chart1 .highcharts-axis-line,#job-chart1 .highcharts-yaxis-grid,#job-chart1 .highcharts-yaxis,#job-chart1 .highcharts-yaxis-labels,#job-chart1 .highcharts-axis-labels,#job-chart1 .highcharts-xaxis{
+  display: none;
+}
+#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-xaxis,#job-chart2 .highcharts-xaxis-labels{
+  display: none;
+}
+#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis-labels{
+  display: none;
 }
