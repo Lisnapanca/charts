@@ -244,9 +244,8 @@ thead{
 .content7-3{
   margin-top: 75px;
 }
-.typography{
-  background-image: url('image/typo.jpg');
-  background-size: cover;
-  width: auto;
-  height: 920px;
+#typography{
+  min-width: 310px;
+  max-width: 800px;
+  margin: 0 auto
 }
