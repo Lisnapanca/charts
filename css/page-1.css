@@ -123,12 +123,13 @@
   font-family: 'Fjalla One', sans-serif;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
-  width: 125px;
+  width: 154px;
   border-radius: 50%;
-  height: 150px;
+  height: 154px;
   background-color: #f6f6f6;
   margin: 10px;
-  margin-left: 40px;
+  margin-left: 15px;
+  object-fit: cover;
 }
 #number{
   text-align:center;
@@ -214,9 +215,9 @@
 #job-chart1 .highcharts-axis-line,#job-chart1 .highcharts-yaxis-grid,#job-chart1 .highcharts-yaxis,#job-chart1 .highcharts-yaxis-labels,#job-chart1 .highcharts-axis-labels,#job-chart1 .highcharts-xaxis{
   display: none;
 }
-#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-xaxis,#job-chart2 .highcharts-xaxis-labels{
+#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-yaxis-labels,#job-chart2 .highcharts-axis-labels,#job-chart2 .highcharts-xaxis{
   display: none;
 }
-#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis-labels{
+#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart3 .highcharts-yaxis,#job-chart3 .highcharts-yaxis-labels,#job-chart3 .highcharts-axis-labels,#job-chart3 .highcharts-xaxis{
   display: none;
 }

@@ -284,7 +284,7 @@ Highcharts.chart('content3', {
     },
     yAxis: {
         title: {
-            text: 'Fruit units'
+            text: ' '
         }
     },
     tooltip: {
@@ -338,12 +338,12 @@ Highcharts.chart('content5-chart', {
         plotBands: [{ // visualize the weekend
             from: 4.5,
             to: 6.5,
-            color: 'rgba(68, 170, 213, .2)'
+            color: 'rgba(255,133,51, .2)'
         }]
     },
     yAxis: {
         title: {
-            text: 'Fruit units'
+            text: ' '
         }
     },
     tooltip: {
@@ -359,10 +359,12 @@ Highcharts.chart('content5-chart', {
         }
     },
     series: [{
-        name: 'Candidate-1',
+        name: 'candidate-1',
+        color: 'rgba(255,133,51,0.2)',
         data: [3, 4, 3, 5, 4, 10, 12]
     }, {
-        name: 'Candidate-2',
+        name: 'candidate-2',
+        color: 'rgba(255,204,0,0.2)',
         data: [1, 3, 4, 3, 3, 5, 4]
     }]
 });
