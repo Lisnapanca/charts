@@ -41,3 +41,6 @@
   right: 0;
   margin: auto;
 }
+#content-1-chart .highcharts-button-symbol,#content-1-chart .highcharts-exporting-group,#content-1-chart .highcharts-legend{
+  display: none;
+}

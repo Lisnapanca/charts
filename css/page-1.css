@@ -221,3 +221,13 @@
 #job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart3 .highcharts-yaxis,#job-chart3 .highcharts-yaxis-labels,#job-chart3 .highcharts-axis-labels,#job-chart3 .highcharts-xaxis{
   display: none;
 }
+#job-chart4 .highcharts-yaxis,#job-chart4 .highcharts-yaxis-labels,#job-chart4 .highcharts-yaxis-grid,#job-chart4 .highcharts-xaxis-labels,#job-chart4 .highcharts-xaxis{
+  display: none;
+}
+#job-chart5 .highcharts-yaxis,#job-chart5 .highcharts-yaxis-labels,#job-chart5 .highcharts-yaxis-grid,#job-chart5 .highcharts-xaxis-labels,#job-chart5 .highcharts-xaxis{
+  display: none;
+}
+#job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
+  display: none;
+}
+#content5-chart .highcharts-xaxis-labels text:nth-last-child{ display: none!important; }
