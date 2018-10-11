@@ -162,7 +162,7 @@
 .content-6{
   font-family: 'Fjalla One', sans-serif;
 }
-#content2-chart9,#content2-chart10{
+#content2-chart8,#content2-chart10{
   width: 220px;
   border-radius: 50%;
   height: 250px;
@@ -236,4 +236,58 @@ thead{
 }
 .title-content{
   margin-top: 15px;
+}
+#job-chart3-2 #chart-content2 {
+  fill: #ffcc00;
+}
+#job-chart3-3 #chart-content2 {
+  fill: #48ab81;
+}
+#job-chart3-1 .highcharts-axis-line,#job-chart3-1 .highcharts-yaxis-grid,#job-chart3-1 .highcharts-yaxis,#job-chart3-1 .highcharts-yaxis-labels,#job-chart3-1 .highcharts-axis-labels,#job-chart3-1 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-2 .highcharts-axis-line,#job-chart3-2 .highcharts-yaxis-grid,#job-chart3-2 .highcharts-yaxis,#job-chart3-2 .highcharts-yaxis-labels,#job-chart3-2 .highcharts-axis-labels,#job-chart3-2 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-3 .highcharts-axis-line,#job-chart3-3 .highcharts-yaxis-grid,#job-chart3-3 .highcharts-yaxis,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-axis-labels,#job-chart3-3 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-4 .highcharts-yaxis,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-yaxis-grid,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-4 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-5 .highcharts-yaxis,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-yaxis-grid,#job-chart3-5 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-6 .highcharts-yaxis,#job-chart3-6 .highcharts-yaxis-labels,#job-chart3-6 .highcharts-yaxis-grid,#job-chart3-6 .highcharts-xaxis-labels,#job-chart3-6 .highcharts-xaxis{
+  display: none;
+}
+#content2-chart1 .amExportButton,#content2-chart1 .amcharts-pie-label,#content2-chart1 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart2 .amExportButton,#content2-chart2 .amcharts-pie-label,#content2-chart2 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart3 .amExportButton,#content2-chart3 .amcharts-pie-label,#content2-chart3 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart4 .amExportButton,#content2-chart4 .amcharts-pie-label,#content2-chart4 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart5 .amExportButton,#content2-chart5 .amcharts-pie-label,#content2-chart5 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart6 .amExportButton,#content2-chart6 .amcharts-pie-label,#content2-chart6 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart7 .amExportButton,#content2-chart7 .amcharts-pie-label,#content2-chart7 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart8 .amExportButton,#content2-chart8 .amcharts-pie-label,#content2-chart8 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart9 .amExportButton,#content2-chart9 .amcharts-pie-label,#content2-chart9 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart10 .amExportButton,#content2-chart10 .amcharts-pie-label,#content2-chart10 .amcharts-pie-tick{
+  display: none;
 }

@@ -302,11 +302,11 @@ Highcharts.chart('content3', {
     series: [{
         name: 'candidate-1',
         color: 'rgba(255,133,51,0.2)',
-        data: [3, 4, 3, 5, 4, 10, 12]
+        data: [3, 4, 3, 5, 4, 10]
     }, {
         name: 'candidate-2',
         color: 'rgba(255,204,0,0.2)',
-        data: [1, 3, 4, 3, 3, 5, 4]
+        data: [1, 3, 4, 3, 3, 5]
     }]
 });
 Highcharts.chart('content5-chart', {
@@ -361,11 +361,11 @@ Highcharts.chart('content5-chart', {
     series: [{
         name: 'candidate-1',
         color: 'rgba(255,133,51,0.2)',
-        data: [3, 4, 3, 5, 4, 10, 12]
+        data: [3, 4, 3, 5, 4, 10]
     }, {
         name: 'candidate-2',
         color: 'rgba(255,204,0,0.2)',
-        data: [1, 3, 4, 3, 3, 5, 4]
+        data: [1, 3, 4, 3, 3, 5]
     }]
 });
 $( document ).ready(function() {

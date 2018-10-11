@@ -242,3 +242,28 @@ thead{
   width: auto;
   height: 920px;
 }
+#job-chart2 #chart-content2 {
+  fill: #ffcc00;
+}
+#job-chart3 #chart-content2 {
+  fill: #48ab81;
+}
+#job-chart1 .highcharts-axis-line,#job-chart1 .highcharts-yaxis-grid,#job-chart1 .highcharts-yaxis,#job-chart1 .highcharts-yaxis-labels,#job-chart1 .highcharts-axis-labels,#job-chart1 .highcharts-xaxis{
+  display: none;
+}
+#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-yaxis-labels,#job-chart2 .highcharts-axis-labels,#job-chart2 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart3 .highcharts-yaxis,#job-chart3 .highcharts-yaxis-labels,#job-chart3 .highcharts-axis-labels,#job-chart3 .highcharts-xaxis{
+  display: none;
+}
+#job-chart4 .highcharts-yaxis,#job-chart4 .highcharts-yaxis-labels,#job-chart4 .highcharts-yaxis-grid,#job-chart4 .highcharts-xaxis-labels,#job-chart4 .highcharts-xaxis{
+  display: none;
+}
+#job-chart5 .highcharts-yaxis,#job-chart5 .highcharts-yaxis-labels,#job-chart5 .highcharts-yaxis-grid,#job-chart5 .highcharts-xaxis-labels,#job-chart5 .highcharts-xaxis{
+  display: none;
+}
+#job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
+  display: none;
+}
+#content5-chart .highcharts-xaxis-labels text:nth-last-child{ display: none!important; }
