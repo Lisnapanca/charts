@@ -125,88 +125,96 @@ Highcharts.chart('job-chart3-3', {
   }]
 });
 Highcharts.chart('job-chart3-4', {
-  title: {
-        text: ''
+    chart: {
+        type: 'column'
     },
-
-  chart: {
-    type: 'variwide'
-  },
-
-
-  xAxis: {
-    type: 'category',
-
-  },
-  credits: {
+    title: {
+        text: 'Social Media(%)'
+    },
+    credits: {
       enabled: false
   },
-  legend: {
-    enabled: false
-  },
-
-  series: [{
-    data: [
-      ['1', 20, 300000],
-      ['2', 30, 300000],
-      ['3', 20, 300000],
-      ['4', 30, 300000],
-      ['5', 40, 300000],
-      ['6', 20, 300000],
-      ['7', 25, 300000],
-      ['8', 30, 300000],
-      ['9', 25, 300000],
-      ['10', 10, 300000],
-      ['11', 20, 300000],
-      ['12', 30, 300000],
-      ['13', 20, 300000],
-
-
-    ],
-
-  }]
+    
+    xAxis: {
+        categories: [
+            'Kompas',
+            'Detik',
+            'Viva News',
+            'CNN',
+            'Media Indonesia',
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Score'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        data: [50, 90, 80, 40, 120],
+        colorByPoint: true
+    }]
 });
 Highcharts.chart('job-chart3-5', {
-  title: {
-        text: ''
+    chart: {
+        type: 'column'
     },
-
-  chart: {
-    type: 'variwide'
-  },
-
-
-  xAxis: {
-    type: 'category',
-
-  },
-  credits: {
+    title: {
+        text: 'Social Media(%)'
+    },
+    credits: {
       enabled: false
   },
-  legend: {
-    enabled: false
-  },
-
-  series: [{
-    data: [
-      ['1', 20, 300000],
-      ['2', 30, 300000],
-      ['3', 20, 300000],
-      ['4', 30, 300000],
-      ['5', 40, 300000],
-      ['6', 20, 300000],
-      ['7', 25, 300000],
-      ['8', 30, 300000],
-      ['9', 25, 300000],
-      ['10', 10, 300000],
-      ['11', 20, 300000],
-      ['12', 30, 300000],
-      ['13', 20, 300000],
-
-
-    ],
-
-  }]
+    
+    xAxis: {
+        categories: [
+            'Kompas',
+            'Detik',
+            'Viva News',
+            'CNN',
+            'Media Indonesia',
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Score'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        data: [50, 90, 80, 40, 120],
+        colorByPoint: true
+    }]
 });
 Highcharts.chart('job-chart3-6', {
   title: {

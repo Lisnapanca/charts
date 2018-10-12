@@ -109,10 +109,10 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4{
+.content-4,.content-9{
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
+.content3,.content-5,.content-8,.content-10{
   background-color: white;
   padding:10px;
   margin:10px;
@@ -136,9 +136,9 @@
   border-radius: 50%;
   height: 135px;
   background-color: #f6f6f6;
-  margin: 35px;
   margin-left: 40px;
   object-fit: cover;
+  margin-top: 30px;
 }
 #number{
   text-align:center;
@@ -180,7 +180,7 @@
   border-radius: 50%;
   height: 250px;
   margin: 10px;
-  margin-top: -15px;
+  margin-top: 5px;
   margin-left:30px;
 }
 .content-1{
@@ -191,9 +191,6 @@
 }
 .dot-group{
   margin-top: 55px;
-}
-.content7-3{
-  margin-top: 75px;
 }
 #typography{
   min-width: 310px;
@@ -215,7 +212,6 @@ thead{
   width: 250px;
   height: 200px;
   position: relative;
-  margin-top: 10px;
   margin-left: -32px;
 }
 .content9-text{
@@ -236,7 +232,7 @@ thead{
 .second,.third{
   color: red;
 }
-.period-white{
+.period-white,.bgcolor{
   background-color: white;
 }
 .period{
@@ -260,10 +256,10 @@ thead{
 #job-chart3-3 .highcharts-axis-line,#job-chart3-3 .highcharts-yaxis-grid,#job-chart3-3 .highcharts-yaxis,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-axis-labels,#job-chart3-3 .highcharts-xaxis{
   display: none;
 }
-#job-chart3-4 .highcharts-yaxis,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-yaxis-grid,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-4 .highcharts-xaxis{
+#job-chart3-4 .highcharts-legend{
   display: none;
 }
-#job-chart3-5 .highcharts-yaxis,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-yaxis-grid,#job-chart3-5 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-xaxis{
+#job-chart3-5 .highcharts-legend{
   display: none;
 }
 #job-chart3-6 .highcharts-yaxis,#job-chart3-6 .highcharts-yaxis-labels,#job-chart3-6 .highcharts-yaxis-grid,#job-chart3-6 .highcharts-xaxis-labels,#job-chart3-6 .highcharts-xaxis{
@@ -303,7 +299,7 @@ thead{
   display: none;
 }
 .content6-text,.content10-text,.content8-text{
-  margin-top: 17px;
+  margin-top: 10px;
 }
 .category-text{
   padding-left:5px;
@@ -323,7 +319,7 @@ thead{
   margin-top: 10px;
 }
 #content5-3-2{
-  height: 50px;
+  height: 43px;
 }
 .img-inside-pie{
   width: 150px;
@@ -336,5 +332,8 @@ thead{
   left: 0;
   right: 0;
   margin: auto;
-  padding-top: 20px;
+  margin-top: 10px;
+}
+.margin{
+  margin-top: -10px;
 }
