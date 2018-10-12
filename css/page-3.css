@@ -118,7 +118,7 @@
   margin:10px;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-8{
+.content-8,.content-5{
   background-color: #f5f5f5;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
@@ -128,15 +128,17 @@
   background-color: #f6f6f6;
   margin: 10px;
   margin-left: 30px;
-  margin-top: 85px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 .candidate-photos, #trophy, #losing{
-  width: 110px;
+  width: 135px;
   border-radius: 50%;
-  height: 130px;
+  height: 135px;
   background-color: #f6f6f6;
-  margin: 10px;
+  margin: 35px;
   margin-left: 40px;
+  object-fit: cover;
 }
 #number{
   text-align:center;
@@ -171,13 +173,14 @@
 }
 .content-6{
   font-family: 'Fjalla One', sans-serif;
+  margin-top: -125px;
 }
 #content2-chart8,#content2-chart10{
   width: 220px;
   border-radius: 50%;
   height: 250px;
   margin: 10px;
-  margin-top: 85px;
+  margin-top: -15px;
 }
 #content2-chart10{
   margin-left: 200px;
@@ -203,9 +206,6 @@
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
-}
-.content-6{
-  font-family: 'Fjalla One', sans-serif;
 }
 table{
   text-align: center;
@@ -308,5 +308,34 @@ thead{
   margin-top: 17px;
 }
 .category-text{
-  padding-left:10px;
+  padding-left:5px;
+}
+.content-5-2{
+  background-color: white;
+  max-width: 100%;
+  border-radius: 5px;
+}
+#content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
+  height: 120px;
+}
+.content5-1{
+  height: 425px;
+}
+.content-5-1-2-1{
+  margin-top: 10px;
+}
+#content5-3-2{
+  height: 50px;
+}
+.img-inside-pie{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
 }
