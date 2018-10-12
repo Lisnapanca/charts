@@ -104,12 +104,12 @@
   text-align:left;
   margin-top: 75px;
 }
-.content3{
+.content-3{
   margin-top: 30px;
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content5{
+.content-5{
   border-radius: 5px;
 }
 #content5-chart{
@@ -122,19 +122,20 @@
   padding-bottom: 15px;
   font-family: 'Fjalla One', sans-serif;
 }
-.president-photos,#number, #trophy, #losing, #comparison{
-  width: 154px;
+.candidate-photos,#number, #trophy, #losing, #comparison{
+  width: 120px;
   border-radius: 50%;
-  height: 154px;
+  height: 120px;
   background-color: #f6f6f6;
   margin: 10px;
   margin-left: 15px;
   object-fit: cover;
+  margin-top: 25px;
 }
 #number{
   text-align:center;
   font-weight:bold;
-  font-size:60px;
+  font-size:40px;
   padding-top: 32px;
 }
 .sub-content5{
@@ -142,7 +143,8 @@
   border-radius: 5px;
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
-}
+  height: 174px;
+  }
 .sub-content5-big{
   width: 1260px;
   margin-top: 10px;
@@ -155,7 +157,7 @@
 
 @import 'https://code.highcharts.com/css/highcharts.css';
 
-#content3, #content5 {
+#content-3, #content-5 {
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
@@ -193,9 +195,6 @@
 }
 .content5-right{
   float: right;
-}
-#period{
-  margin-left: 0px;
 }
 #content3-text{
   margin-top: 20px;

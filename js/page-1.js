@@ -250,7 +250,7 @@ Highcharts.chart('job-chart6', {
 
   }]
 });
-Highcharts.chart('content3', {
+Highcharts.chart('content3-chart', {
     chart: {
         type: 'areaspline'
     },
