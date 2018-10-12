@@ -181,9 +181,7 @@
   height: 250px;
   margin: 10px;
   margin-top: -15px;
-}
-#content2-chart10{
-  margin-left: 200px;
+  margin-left:30px;
 }
 .content-1{
   font-family: 'Fjalla One', sans-serif;
@@ -338,4 +336,5 @@ thead{
   left: 0;
   right: 0;
   margin: auto;
+  padding-top: 20px;
 }
