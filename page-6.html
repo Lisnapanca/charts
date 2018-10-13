@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
 
-    <title>Page-4</title>
+    <title>Page-3</title>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -21,7 +21,7 @@
           <span id="sidebar-icon" class="glyphicon glyphicon-menu-hamburger"></span>
         </div>
         <div class="col-md-4 text-center">
-          <h1>Overall Score Summary</h1>
+          <h1>Online Media Performance</h1>
         </div>
         <div class="col-md-4 text-right">
           <h2>20 September 2018</h2>
@@ -34,7 +34,7 @@
         </div>
         <div id="period" class="col-md-6">
             <div class="period-dropdown">
-              <button class="periodbtn"><b>Period</b>
+              <button class="periodbtn period"><b>Period</b>
                 <span class="glyphicon glyphicon-menu-down"></span></button>
                 <div class="dropdown-content">
                   <a href="#">Monthly</a>
@@ -45,46 +45,72 @@
         </div>
       </div>
       <div class="content2">
-          <div class="row">
-            <div id="candidate1" class="col-md-4">
-              <h3 class="candidate-text">Candidate 1 Total # Data</h3>
-                <div class="row">
-                  <div class="col-md-6">
-                    <h2 class="content2-text">39K</h2>
-                    <span class="glyphicon glyphicon-arrow-up percentage">13.8%</span>
-                  </div>
-                  <div class="col-md-6">
-                    <div id="job-chart3-1"></div>
-                  </div>
+        <div class="row">
+          <div id="candidate1" class="col-md-4">
+            <h3 class="candidate-text">Candidate 1 Total # Data</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="content2-text">39K</h2>
+                  <span class="glyphicon glyphicon-arrow-up percentage first">13.8%</span>
                 </div>
-            </div>
-            <div id="candidate2"class="col-md-4">
-              <h3 class="candidate-text">Candidate 2 Total # Data</h3>
-                <h2 class="content2-text">24K</h2>
-                <span class="glyphicon glyphicon-arrow-down percentage">13.8%</span>
-                <div id="job-chart3-2"></div>
-            </div>
-            <div id="total" class="col-md-4">
-              <h3 class="candidate-text">Total # All Data</h3>
-                  <h2 class="content2-text">72K</h2>
-                  <span class="glyphicon glyphicon-arrow-up percentage">13.8%</span>
-                  <div id="job-chart3-3"></div>  
-            </div>
+                <div class="col-md-6">
+                  <div id="job-chart3-1"></div>
+                </div>
+              </div>
           </div>
+          <div id="candidate2"class="col-md-4">
+            <h3 class="candidate-text">Candidate 2 Total # Data</h3>
+              <h2 class="content2-text">24K</h2>
+              <span class="glyphicon glyphicon-arrow-down percentage second">13.8%</span>
+              <div id="job-chart3-2"></div>
+          </div>
+          <div id="total" class="col-md-4">
+            <h3 class="candidate-text">Total # All Data</h3>
+                <h2 class="content2-text">72K</h2>
+                <span class="glyphicon glyphicon-arrow-up percentage third">13.8%</span>
+                <div id="job-chart3-3"></div>  
+          </div>
+        </div>
       </div>
       <div class="row content3">
-          <div class="col-md-12"> 
-            <div id="content3"></div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="title-content">Trend # of Article</h3>
+                </div>
+                <div class="col-md-6">
+                  <div class="period-white" class="col-md-6">
+                    <div class="period-dropdown">
+                      <button class="periodbtn period-white"><b>Period</b>
+                        <span class="glyphicon glyphicon-menu-down"></span></button>
+                        <div class="dropdown-content">
+                          <a href="#">Monthly</a>
+                          <a href="#">Weekly</a>
+                          <a href="#">Daily</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="content3"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="row content-4">
         <div class="col-md-4">
-          <h2>Sentiment Article [Show By] Trend</h2>
+          <h2 class="title-content">Sentiment Article [Show By] Trend</h2>
         </div>
         <div class="col-md-4">
-          <div id="period" class="col-md-6">
+          <div class ="period" class="col-md-6">
             <div class="period-dropdown">
-              <button class="periodbtn"><b>Period</b>
+              <button class="periodbtn period"><b>Period</b>
                 <span class="glyphicon glyphicon-menu-down"></span></button>
                 <div class="dropdown-content">
                   <a href="#">Monthly</a>
@@ -95,19 +121,21 @@
           </div>
         </div>
         <div class="col-md-4">
-          <h2>Sentiment Article</h2>
+          <h2 class="title-content text-center">Sentiment Article</h2>
         </div>
       </div>
       <div class="row content-5">
-        <div class="col-md-4">
+        <div class="col-md-4 content5-1">
           <div class="row content-5-2">
             <div class="col-md-6">
               <img class="president-photos" src="image/candidate-1.jpg">
+              <h3 class="text-center">Candidate 1</h3>
             </div>
             <div class="col-md-6">
               <div class="row content-5-1-2-1">
                 <div class="col-md-6">
                   <div id="content2-chart1"></div>
+
                 </div>
                 <div class="col-md-6">
                   <div id="content2-chart2"></div>
@@ -125,13 +153,19 @@
                 <div class="col-md-12">
                   <div class="row">
                     <div class="col-md-4">
-                      <div class="positive-dot">Positive</div>
+                      <div class="positive-dot">
+                        <h4 class="category-text">Positive</h4>
+                      </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="negative-dot">Negative</div>
+                      <div class="negative-dot">
+                        <h4 class="category-text">Negative</h4>
+                      </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="neutral-dot">Neutral</div>
+                      <div class="neutral-dot">
+                        <h4 class="category-text">Neutral</h4>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -139,15 +173,17 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 content5-1">
           <div class="row content-5-2">
             <div class="col-md-6">
               <img class="president-photos" src="image/candidate-2.jpg">
+              <h3 class="text-center">Candidate 2</h3>
             </div>
             <div class="col-md-6">
               <div class="row content-5-1-2-1">
                 <div class="col-md-6">
                   <div id="content2-chart5"></div>
+
                 </div>
                 <div class="col-md-6">
                   <div id="content2-chart6"></div>
@@ -165,13 +201,19 @@
                 <div class="col-md-12">
                   <div class="row">
                     <div class="col-md-4">
-                      <div class="positive-dot">Positive</div>
+                      <div class="positive-dot">
+                        <h4 class="category-text">Positive</h4>
+                      </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="negative-dot">Negative</div>
+                      <div class="negative-dot">
+                        <h4 class="category-text">Negative</h4>
+                      </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="neutral-dot">Neutral</div>
+                      <div class="neutral-dot">
+                        <h4 class="category-text">Neutral</h4>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -179,42 +221,45 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="row content-5-3-1">
-            <div class="col-md-6">
-              <div class="row content-5-1-2-1">
-                <div class="col-md-6">
-                  <div id="content2-chart8"></div>
-                </div>
-                <div class="col-md-6">
-                  <div id="content2-chart10"></div>
-                </div>
+        <div class="col-md-4 margin">
+          <div class="content-5-2">
+            <div class="row content-5-1-2-1">
+              <div class="col-md-6">
+                <img src="image/candidate-1.jpg" class="img-inside-pie">
+                <div id="content2-chart8"></div>   
+              </div>
+              <div class="col-md-6">
+                <img src="image/candidate-2.jpg" class="img-inside-pie">
+                <div id="content2-chart10"></div>   
               </div>
             </div>
-          </div>
-          <div class="row content-5-3-2">
-            <div class="col-md-12">
-              <div class="row dot-group">
-                <div class="col-md-4">
-                  <div class="positive-dot">Positive</div>
-                </div>
-                <div class="col-md-4">
-                  <div class="negative-dot">Negative</div>
-                </div>
-                <div class="col-md-4">
-                  <div class="neutral-dot">Neutral</div>
+            <div class="row content-5-3-2">
+              <div class="col-md-3" id="content5-3-2"></div>
+              <div class="col-md-2">
+                <div class="positive-dot">
+                  <h4 class="category-text">Positive</h4>
                 </div>
               </div>
+              <div class="col-md-2">
+                <div class="negative-dot">
+                  <h4 class="category-text">Negative</h4>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="neutral-dot">
+                  <h4 class="category-text">Neutral</h4>
+                </div>
+              </div>
+              <div class="col-md-3"></div>
             </div>
           </div>
         </div>
       </div>
       <div class="row content-6">
         <div class="col-md-4">
-          <h2>Top 5 Account by # of Article</h2>
+          <h2 class="content6-text">Top 5 Account by # of Article</h2>
         </div>
         <div class="col-md-4">
-          <div class="col-md-6">
             <div class="period-dropdown">
               <button class="periodbtn"><b>Period</b>
                 <span class="glyphicon glyphicon-menu-down"></span></button>
@@ -224,10 +269,9 @@
                   <a href="#">Daily</a>
                 </div>
             </div>
-          </div>
         </div>
         <div class="col-md-4">
-          <h2>Your Current Election Status</h2>
+          <h2 class="content6-text text-center">Your Current Election Status</h2>
         </div>
       </div>
       <div class="row content-7">
@@ -238,7 +282,7 @@
           <div id="job-chart3-5"></div>
         </div>
         <div class="col-md-4">
-          <div class="row">
+          <div class="row bgcolor">
             <div class="col-md-4">
               <img class="candidate-photos" src="image/candidate-1.jpg">
             </div>
@@ -249,7 +293,7 @@
               <img id="trophy" src="image/trophy.png">
             </div>
           </div>
-          <div class="row content7-3">
+          <div class="row bgcolor">
             <div class="col-md-4">
               <img class="candidate-photos" src="image/candidate-2.jpg">
             </div>
@@ -264,12 +308,11 @@
       </div>
       <div class="row content-8">
         <div class="col-md-6">
-          <h2>Top 5 Positive and Negative Article</h2>
+          <h2 class="content8-text">Top 5 Positive and Negative Article</h2>
         </div>
-        <div class="col-md-6">
           <div id="period" class="col-md-6">
             <div class="period-dropdown">
-              <button class="periodbtn"><b>Period</b>
+              <button class="periodbtn period"><b>Period</b>
                 <span class="glyphicon glyphicon-menu-down"></span></button>
                 <div class="dropdown-content">
                   <a href="#">Monthly</a>
@@ -277,11 +320,10 @@
                   <a href="#">Daily</a>
                 </div>
             </div>
-        </div>
-        </div>
+          </div>
       </div>
       <div class="row content-9">
-        <div class="col-md-6">
+        <div class="col-md-6 bgcolor">
           <h2 class="candidate-text">Top 5 Positive Article</h2>
           <h2 class="content9-text">Candidate 1</h2>
           <table class="table table-hover">
@@ -383,7 +425,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 bgcolor">
           <h2 class="candidate-text">Top 5 Positive Article</h2>
           <h2 class="content9-text">Candidate 2</h2>
           <table class="table table-hover">
@@ -489,13 +531,12 @@
       <div class="row content-10">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 content10-text">
               <h2>Top Keyword Article</h2>
             </div>
-            <div class="col-md-6">
-              <div id="period" class="col-md-6">
+              <div id="period" class="col-md-6 bgcolor">
                 <div class="period-dropdown">
-                  <button class="periodbtn"><b>Period</b>
+                  <button class="periodbtn period-white"><b>Period</b>
                     <span class="glyphicon glyphicon-menu-down"></span>
                   </button>
                     <div class="dropdown-content">
@@ -505,9 +546,8 @@
                     </div>
                 </div>
               </div>
-            </div>
           </div>
-          <div class="typography"></div>
+          <div id="wordcloud"></div>
         </div>
       </div>
     </div>
@@ -525,6 +565,8 @@
     <script src="js/Chart.bundle.js"></script>
     <script src="js/Chart.bundle.min.js"></script>
     <script src="js/variwide.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
     <script type="text/javascript" src="js/page-3.js"></script>
     <script type="text/javascript" src="js/page-1.9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

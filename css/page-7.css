@@ -48,6 +48,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
+    background-color: #f5f5f5;
 }
 .period-dropdown {
     position: relative;
@@ -108,14 +109,17 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4{
+.content-4,.content-9,.content-10 {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
+.content3,.content-5,.content-8{
   background-color: white;
   padding:10px;
   margin:10px;
   font-family: 'Fjalla One', sans-serif;
+}
+.content-8,.content-5{
+  background-color: #f5f5f5;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
   width: 220px;
@@ -124,15 +128,17 @@
   background-color: #f6f6f6;
   margin: 10px;
   margin-left: 30px;
-  margin-top: 85px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 .candidate-photos, #trophy, #losing{
-  width: 110px;
+  width: 135px;
   border-radius: 50%;
-  height: 130px;
+  height: 135px;
   background-color: #f6f6f6;
-  margin: 10px;
   margin-left: 40px;
+  object-fit: cover;
+  margin-top: 30px;
 }
 #number{
   text-align:center;
@@ -167,16 +173,15 @@
 }
 .content-6{
   font-family: 'Fjalla One', sans-serif;
+  margin-top: -125px;
 }
 #content2-chart8,#content2-chart10{
   width: 220px;
   border-radius: 50%;
   height: 250px;
   margin: 10px;
-  margin-top: 85px;
-}
-#content2-chart10{
-  margin-left: 200px;
+  margin-top: 5px;
+  margin-left:30px;
 }
 .content-1{
   font-family: 'Fjalla One', sans-serif;
@@ -187,10 +192,7 @@
 .dot-group{
   margin-top: 55px;
 }
-.content7-3{
-  margin-top: 75px;
-}
-#typography{
+#wordcloud{
   min-width: 310px;
   max-width: 800px;
   margin: 0 auto
@@ -199,9 +201,6 @@
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
-}
-.content-6{
-  font-family: 'Fjalla One', sans-serif;
 }
 table{
   text-align: center;
@@ -213,7 +212,6 @@ thead{
   width: 250px;
   height: 200px;
   position: relative;
-  margin-top: 10px;
   margin-left: -32px;
 }
 .content9-text{
@@ -234,7 +232,7 @@ thead{
 .second,.third{
   color: red;
 }
-.period-white{
+.period-white,.bgcolor,.content10-text{
   background-color: white;
 }
 .period{
@@ -258,13 +256,16 @@ thead{
 #job-chart3-3 .highcharts-axis-line,#job-chart3-3 .highcharts-yaxis-grid,#job-chart3-3 .highcharts-yaxis,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-axis-labels,#job-chart3-3 .highcharts-xaxis{
   display: none;
 }
-#job-chart3-4 .highcharts-yaxis,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-yaxis-grid,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-4 .highcharts-xaxis{
+#job-chart3-4 .highcharts-legend{
   display: none;
 }
-#job-chart3-5 .highcharts-yaxis,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-yaxis-grid,#job-chart3-5 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-xaxis{
+#job-chart3-5 .highcharts-legend{
   display: none;
 }
 #job-chart3-6 .highcharts-yaxis,#job-chart3-6 .highcharts-yaxis-labels,#job-chart3-6 .highcharts-yaxis-grid,#job-chart3-6 .highcharts-xaxis-labels,#job-chart3-6 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-7 .highcharts-yaxis,#job-chart3-7 .highcharts-yaxis-labels,#job-chart3-7 .highcharts-yaxis-grid,#job-chart3-7 .highcharts-xaxis-labels,#job-chart3-7 .highcharts-xaxis{
   display: none;
 }
 #content2-chart1 .amExportButton,#content2-chart1 .amcharts-pie-label,#content2-chart1 .amcharts-pie-tick{
@@ -297,6 +298,48 @@ thead{
 #content2-chart10 .amExportButton,#content2-chart10 .amcharts-pie-label,#content2-chart10 .amcharts-pie-tick{
   display: none;
 }
-.content6-text{
-  margin-top: 17px;
+.content6-text,.content10-text,.content8-text{
+  margin-top: 10px;
+}
+.category-text{
+  padding-left:5px;
+}
+.content-5-2{
+  background-color: white;
+  max-width: 100%;
+  border-radius: 5px;
+}
+#content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
+  height: 120px;
+}
+.content5-1{
+  height: 425px;
+}
+.content-5-1-2-1{
+  margin-top: 10px;
+}
+#content5-3-2{
+  height: 43px;
+}
+.img-inside-pie{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 10px;
+}
+.margin{
+  margin-top: -10px;
+}
+#wordcloud .highcharts-title{
+  display: none;
+}
+.content10-text{
+  padding-top:10px;
 }

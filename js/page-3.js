@@ -629,7 +629,7 @@ var lines = text.split(/[,\. ]+/g),
         return arr;
     }, []);
 
-Highcharts.chart('wordcloud', {
+Highcharts.chart('wordcloud.js', {
     series: [{
         type: 'wordcloud',
         data: data,

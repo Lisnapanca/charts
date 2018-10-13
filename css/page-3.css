@@ -109,10 +109,10 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9{
+.content-4,.content-9,.content-10 {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-8,.content-10{
+.content3,.content-5,.content-8{
   background-color: white;
   padding:10px;
   margin:10px;
@@ -232,7 +232,7 @@ thead{
 .second,.third{
   color: red;
 }
-.period-white,.bgcolor{
+.period-white,.bgcolor,.content10-text{
   background-color: white;
 }
 .period{
@@ -336,4 +336,10 @@ thead{
 }
 .margin{
   margin-top: -10px;
+}
+#wordcloud .highcharts-title{
+  display: none;
+}
+.content10-text{
+  padding-top:10px;
 }
