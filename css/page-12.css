@@ -62,7 +62,7 @@
     text-decoration: none;
     display: block;
 }
-.candidate-text{
+.candidate-text,.content-4 h2{
   margin-top: 15px;
 }
 .content9-text{
@@ -162,9 +162,6 @@ thead{
   border-radius: 10px;
   background-color: transparent;
 }
-
-
-
 #content3, #content5 {
   height: 400px;
   min-width: 320px;
@@ -240,4 +237,22 @@ thead{
 }
 .content-4{
   font-family: 'Fjalla One', sans-serif;
+}
+.highcharts-color-0 {
+    fill: #7cb5ec;
+    stroke: white;
+}
+.period-white{
+  background-color: white;
+}
+#job-chart3-4{
+  min-width: 310px; 
+  height: 400px; 
+  margin: 0 auto;
+}
+#job-chart3-4 .highcharts-color-0:nth-child(4) {
+    color: green!important;
+}
+#content4 .highcharts-plot-band {
+  display: none;
 }
