@@ -1,0 +1,348 @@
+.amcharts-chart-div a{
+  display: none !important;
+}
+.amcharts-export-menu{display:none !important}
+.navbar-default{
+  background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+.navbar-text{
+  width: 1000px;
+  height: auto;
+}
+.container-fluid{
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  margin-top: -20px;
+}
+.content-1{
+  background-color: #f5f5f5;
+  margin:5px;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 5px;
+}
+#candidate1, #candidate2, #total{
+  margin-left: 45px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  max-width: 30%;
+  font-family: 'Fjalla One', sans-serif;
+}
+#candidate1, #candidate2, #total{
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  max-width: 30%;
+  font-family: 'Fjalla One', sans-serif;
+}
+.candidate-text{
+  margin-top: 15px;
+}
+.periodbtn,.periodbtn1 {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #f5f5f5;
+}
+.period-dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f5f5f5; color: inherit; text-decoration: none;}
+
+.period-dropdown:hover .dropdown-content {display: block;}
+
+.period-dropdown:hover .periodbtn {background-color: white;}
+#sidebar-icon{
+  font-size:20px;
+  cursor: pointer;
+}
+#job-chart3-1, #job-chart3-2, #job-chart3-3{
+  width: 250px;
+  height: 200px;
+  float: right;
+  margin-top: -41px;
+  position: relative;
+}
+#total-text{
+  margin-top: 15px;
+  margin-bottom: -40px;
+}
+.percentage{
+  font-size:15px;
+}
+#job-chart3-2, #job-chart3-3{
+  margin-top: -164px;
+}
+.highcharts-axis-labels highcharts-xaxis-labels {
+  color: white;
+}
+.content2-text{
+  font-size: 40px;
+  font-weight: bold;
+  text-align:left;
+  margin-top: 75px;
+}
+.content3{
+  margin-top: 30px;
+  background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+.content-4,.content-9,.content-10 {
+  font-family: 'Fjalla One', sans-serif;
+}
+.content3,.content-5,.content-8{
+  background-color: white;
+  padding:10px;
+  margin:10px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.content-8,.content-5{
+  background-color: #f5f5f5;
+}
+.president-photos,#number, #trophy, #losing, #comparison{
+  width: 220px;
+  border-radius: 50%;
+  height: 250px;
+  background-color: #f6f6f6;
+  margin: 10px;
+  margin-left: 30px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.candidate-photos, #trophy, #losing{
+  width: 135px;
+  border-radius: 50%;
+  height: 135px;
+  background-color: #f6f6f6;
+  margin-left: 40px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+#number{
+  text-align:center;
+  font-weight:bold;
+  font-size:35px;
+  padding-top: 40px;
+}
+.sub-content5{
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+.sub-content5-big{
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.positive-dot, .negative-dot, .neutral-dot{
+  height: 25px;
+  width: 25px;
+  background-color: #fdd400;
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 6px;
+}
+.negative-dot{
+  background-color: #67b7dd;
+}
+.neutral-dot{
+  background-color: #f2f2f2;
+}
+.content-6{
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: -125px;
+}
+#content2-chart8,#content2-chart10{
+  width: 220px;
+  border-radius: 50%;
+  height: 250px;
+  margin: 10px;
+  margin-top: 5px;
+  margin-left:30px;
+}
+.content-1{
+  font-family: 'Fjalla One', sans-serif;
+}
+.amcharts-chart-div{
+  height: 200px;
+}
+.dot-group{
+  margin-top: 55px;
+}
+#wordcloud{
+  min-width: 310px;
+  max-width: 800px;
+  margin: 40px 0px 40px 555px; 
+}
+#content3, #content5 {
+  height: 400px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+table{
+  text-align: center;
+}
+thead{
+  background-color: #f5f5f5;
+}
+#job-chart3-6,#job-chart3-7{
+  width: 250px;
+  height: 200px;
+  position: relative;
+  margin-left: -32px;
+}
+.content9-text{
+  float: right;
+}
+.highcharts-xaxis,.highcharts-yaxis{
+  display: none;
+}
+.highcharts-plot-bands-0{
+  display: none;
+}
+#chart-content2,#job-chart3-1 {
+  fill: #ff8533;
+}
+.first{
+  color: green;
+}
+.second,.third{
+  color: red;
+}
+.period-white,.bgcolor,.content10-text{
+  background-color: white;
+}
+.period{
+  background-color: #f5f5f5;
+}
+.title-content{
+  margin-top: 15px;
+}
+#job-chart3-2 #chart-content2 {
+  fill: #ffcc00;
+}
+#job-chart3-3 #chart-content2 {
+  fill: #48ab81;
+}
+#job-chart3-1 .highcharts-axis-line,#job-chart3-1 .highcharts-yaxis-grid,#job-chart3-1 .highcharts-yaxis,#job-chart3-1 .highcharts-yaxis-labels,#job-chart3-1 .highcharts-axis-labels,#job-chart3-1 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-2 .highcharts-axis-line,#job-chart3-2 .highcharts-yaxis-grid,#job-chart3-2 .highcharts-yaxis,#job-chart3-2 .highcharts-yaxis-labels,#job-chart3-2 .highcharts-axis-labels,#job-chart3-2 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-3 .highcharts-axis-line,#job-chart3-3 .highcharts-yaxis-grid,#job-chart3-3 .highcharts-yaxis,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-axis-labels,#job-chart3-3 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-4 .highcharts-legend{
+  display: none;
+}
+#job-chart3-5 .highcharts-legend{
+  display: none;
+}
+#job-chart3-6 .highcharts-yaxis,#job-chart3-6 .highcharts-yaxis-labels,#job-chart3-6 .highcharts-yaxis-grid,#job-chart3-6 .highcharts-xaxis-labels,#job-chart3-6 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-7 .highcharts-yaxis,#job-chart3-7 .highcharts-yaxis-labels,#job-chart3-7 .highcharts-yaxis-grid,#job-chart3-7 .highcharts-xaxis-labels,#job-chart3-7 .highcharts-xaxis{
+  display: none;
+}
+#content2-chart1 .amExportButton,#content2-chart1 .amcharts-pie-label,#content2-chart1 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart2 .amExportButton,#content2-chart2 .amcharts-pie-label,#content2-chart2 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart3 .amExportButton,#content2-chart3 .amcharts-pie-label,#content2-chart3 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart4 .amExportButton,#content2-chart4 .amcharts-pie-label,#content2-chart4 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart5 .amExportButton,#content2-chart5 .amcharts-pie-label,#content2-chart5 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart6 .amExportButton,#content2-chart6 .amcharts-pie-label,#content2-chart6 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart7 .amExportButton,#content2-chart7 .amcharts-pie-label,#content2-chart7 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart8 .amExportButton,#content2-chart8 .amcharts-pie-label,#content2-chart8 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart9 .amExportButton,#content2-chart9 .amcharts-pie-label,#content2-chart9 .amcharts-pie-tick{
+  display: none;
+}
+#content2-chart10 .amExportButton,#content2-chart10 .amcharts-pie-label,#content2-chart10 .amcharts-pie-tick{
+  display: none;
+}
+.content6-text,.content10-text,.content8-text{
+  margin-top: 10px;
+}
+.category-text{
+  padding-left:5px;
+}
+.content-5-2{
+  background-color: white;
+  max-width: 100%;
+  border-radius: 5px;
+}
+#content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
+  height: 120px;
+}
+.content5-1{
+  height: 425px;
+}
+.content-5-1-2-1{
+  margin-top: 10px;
+}
+#content5-3-2{
+  height: 43px;
+}
+.img-inside-pie{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 10px;
+}
+.margin{
+  margin-top: -10px;
+}
+#wordcloud .highcharts-title{
+  display: none;
+}
+.content10-text{
+  padding-top:10px;
+}
+#job-chart3-1 .chart-content2{
+  fill: #ff8533;
+}

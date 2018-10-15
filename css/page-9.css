@@ -62,8 +62,11 @@
   text-decoration: none;
   display: block;
 }
-.candidate-text,.content-2 h2{
+.content-2 h2,.content-5 h2{
   margin-top: 15px;
+}
+.candidate-text{
+  margin-top:15px;
 }
 .content9-text{
   float: right;
@@ -83,19 +86,18 @@ thead{
   font-size:20px;
   cursor: pointer;
 }
-#job-chart1, #job-chart2, #job-chart3, #job-chart4, #job-chart5, #job-chart6, #job-chart3-1, #job-chart3-2, #job-chart3-3{
+#job-chart1, #job-chart2, #job-chart3, #job-chart3-4, #job-chart3-5, #job-chart3-6, #job-chart3-1, #job-chart3-2, #job-chart3-3{
   width: 250px;
   height: 200px;
   float: right;
   margin-top: -41px;
   position: relative;
 }
-#job-chart3-6,#job-chart3-7{
-  width: 250px;
-  height: 200px;
-  position: relative;
-  margin-top: 10px;
-  margin-left: -32px;
+#job-chart3-4{
+  margin-top:-30px;
+}
+#job-chart3-5, #job-chart3-6{
+  margin-top:-150px;
 }
 #total-text{
   margin-top: 15px;
@@ -220,13 +222,13 @@ thead{
   padding-left: 25px;
   padding-top: 6px;
 }
-.content-1,.content-4,.content-6,.content-7,.content-8,.content-9,.content-10{
+.content-1,.content-4,.content-7,.content-8,.content-9,.content-10{
   background-color: white;
   padding:10px;
   margin:10px;
   font-family: 'Fjalla One', sans-serif;
 }
-.content3{
+.content3,.content-6{
   margin-top: 30px;
   padding:10px;
   margin:10px;
@@ -279,12 +281,21 @@ thead{
 #job-chart3-3 .highcharts-grid-line,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-xaxis-labels{
   display: none;
 }
-#job-chart3-1 .highcharts-color-0 {
+#job-chart3-4 .highcharts-grid-line,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels{
+  display: none;
+}
+#job-chart3-5 .highcharts-grid-line,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-xaxis-labels{
+  display: none;
+}
+#job-chart3-6 .highcharts-grid-line,#job-chart3-6 .highcharts-yaxis-labels,#job-chart3-6 .highcharts-xaxis-labels{
+  display: none;
+}
+#job-chart3-1 .highcharts-color-0,#job-chart3-4 .highcharts-color-0 {
   fill: #ff8533;
 }
-#job-chart3-2 .highcharts-color-0 {
+#job-chart3-2 .highcharts-color-0,#job-chart3-5 .highcharts-color-0 {
   fill: #ffcc00;
 }
-#job-chart3-3 .highcharts-color-0 {
+#job-chart3-3 .highcharts-color-0,#job-chart3-6 .highcharts-color-0 {
   fill: #48ab81;
 }
