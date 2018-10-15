@@ -593,6 +593,11 @@ $( document ).ready(function() {
 });
 $( document ).ready(function() {
   setTimeout(function(){
+    $(".highcharts-tracker").attr('id', 'chart-page8');
+  })
+});
+$( document ).ready(function() {
+  setTimeout(function(){
     $(".highcharts-color-0").attr('id', 'chart-content2');
   })
 });

@@ -343,6 +343,12 @@ thead{
 .content10-text{
   padding-top:10px;
 }
-.job-chart3-1 #chart-content2{
+.highcharts-color-0{
   fill: #ff8533;
+}
+#job-chart3-2 .highcharts-color-0{
+  fill:#ffcc00;
+}
+#job-chart3-3 .highcharts-color-0{
+  fill:#48ab81;
 }
