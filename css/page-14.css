@@ -116,7 +116,7 @@ thead{
   margin-top: 75px;
 }
 .content3{
-  margin-top: 30px;
+  margin-top: 300px;
 }
 .content5{
   margin-top: 30px;
@@ -170,6 +170,7 @@ thead{
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
+  margin-top:300px;
 }
 
 #gradient-0 stop {
@@ -232,9 +233,24 @@ thead{
 .content7-3{
   margin-top: 75px;
 }
-.typography{
-  background-image: url('image/typo.jpg');
-  background-size: cover;
-  width: auto;
-  height: 920px;
+#candidate1, #candidate2, #total,#candidate-1, #candidate-2, #totaly{
+  width: 30%;
+  height: 200px;
+  margin-left:45px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  max-width:30%;
+  font-family: 'Fjalla One', sans-serif;
+}
+#job-chart3-1, #job-chart3-2, #job-chart3-3,#job-chart3-4,#job-chart3-5,#job-chart3-6{
+  width: 250px;
+  height: 200px;
+  float: right;
+  margin-top: -41px;
+  position: relative;
+}
+.highcharts-color-0 {
+    fill: #7cb5ec;
+    stroke: white;
 }
