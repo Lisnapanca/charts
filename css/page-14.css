@@ -115,9 +115,6 @@ thead{
   text-align:left;
   margin-top: 75px;
 }
-.content3{
-  margin-top: 300px;
-}
 .content5{
   margin-top: 30px;
   border-radius: 5px;
@@ -170,7 +167,6 @@ thead{
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
-  margin-top:300px;
 }
 
 #gradient-0 stop {
@@ -193,9 +189,7 @@ thead{
 }
 
 /* Apply the gradients */
-.highcharts-plot-background {
-  fill: url(#gradient-1);
-}
+
 .highcharts-color-0 .highcharts-area {
   fill-opacity: 1;
   fill: url(#gradient-0);
@@ -220,7 +214,6 @@ thead{
   padding-top: 6px;
 }
 .content-1,.content2,.content3,.content-5,.content-7,.content-8,.content-9,.content-10{
-  background-color: white;
   padding:10px;
   margin:10px;
 }
@@ -250,7 +243,37 @@ thead{
   margin-top: -41px;
   position: relative;
 }
-.highcharts-color-0 {
+#job-chart3-1 .highcharts-color-0,#job-chart3-2 .highcharts-color-0,#job-chart3-3 .highcharts-color-0{
     fill: #7cb5ec;
     stroke: white;
+}
+#job-chart3-2, #job-chart3-3,#job-chart3-5,#job-chart3-6{
+  margin-top: -164px;
+}
+#job-chart3-1 .highcharts-grid-line,#job-chart3-1 .highcharts-yaxis-labels,#job-chart3-1 .highcharts-xaxis-labels,#job-chart3-1 .highcharts-yaxis,#job-chart3-1 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-2 .highcharts-grid-line,#job-chart3-2 .highcharts-yaxis-labels,#job-chart3-2 .highcharts-xaxis-labels,#job-chart3-2 .highcharts-yaxis,#job-chart3-2 .highcharts-xaxis{
+  display: none;
+}
+#job-chart3-3 .highcharts-grid-line,#job-chart3-3 .highcharts-yaxis-labels,#job-chart3-3 .highcharts-xaxis-labels,#job-chart3-3 .highcharts-yaxis,#job-chart3-3 .highcharts-xaxis{
+  display: none;
+}
+.highcharts-exporting-group{
+  display: none;
+}
+#job-chart3-1 .highcharts-color-0{
+  fill: #71d187;
+}
+#job-chart3-2 .highcharts-color-0{
+  fill: #ffcc66;
+}
+#job-chart3-3 .highcharts-color-0{
+  fill: #c42b6b;
+}
+#content3 .highcharts-plot-band{
+  display: none;
+}
+.highcharts-color-1{
+  fill:#fec760;
 }
