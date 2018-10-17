@@ -16,9 +16,6 @@
   background-color: #f5f5f5;
   margin-top: -20px;
 }
-.content-1, .content-2, .content-3{
-  background-color: white;
-}
 #content-1-chart, #content-2-chart, #content-3-chart{
   min-width: 310px;
   height: 400px;
@@ -50,28 +47,19 @@
 #content2-chart4 .amExportButton,#content2-chart4 .amcharts-pie-label,#content2-chart4 .amcharts-pie-tick{
   display: none;
 }
-#job-chart2 #chart-content2 {
-  fill: #ffcc00;
+.node,.mapping{
+background-color: white;
 }
-#job-chart3 #chart-content2 {
-  fill: #48ab81;
+.content-3{
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
 }
-#job-chart1 .highcharts-axis-line,#job-chart1 .highcharts-yaxis-grid,#job-chart1 .highcharts-yaxis,#job-chart1 .highcharts-yaxis-labels,#job-chart1 .highcharts-axis-labels,#job-chart1 .highcharts-xaxis{
+#node-image{
+  width: 500px;
+}
+.highcharts-button-normal{
   display: none;
 }
-#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-yaxis-labels,#job-chart2 .highcharts-axis-labels,#job-chart2 .highcharts-xaxis{
-  display: none;
+.content-1{
+  padding:20px;
 }
-#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart3 .highcharts-yaxis,#job-chart3 .highcharts-yaxis-labels,#job-chart3 .highcharts-axis-labels,#job-chart3 .highcharts-xaxis{
-  display: none;
-}
-#job-chart4 .highcharts-yaxis,#job-chart4 .highcharts-yaxis-labels,#job-chart4 .highcharts-yaxis-grid,#job-chart4 .highcharts-xaxis-labels,#job-chart4 .highcharts-xaxis{
-  display: none;
-}
-#job-chart5 .highcharts-yaxis,#job-chart5 .highcharts-yaxis-labels,#job-chart5 .highcharts-yaxis-grid,#job-chart5 .highcharts-xaxis-labels,#job-chart5 .highcharts-xaxis{
-  display: none;
-}
-#job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
-  display: none;
-}
-#content5-chart .highcharts-xaxis-labels text:nth-last-child{ display: none!important; }
