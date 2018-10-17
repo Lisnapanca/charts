@@ -309,3 +309,4 @@ Highcharts.chart('content3', {
         data: [1, 3, 4, 3, 3, 5]
     }]
 });
+AOS.init();

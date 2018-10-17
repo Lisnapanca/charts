@@ -257,3 +257,4 @@ Highcharts.chart('job-chart3-2', {
         colorByPoint: true
     }]
 });
+AOS.init();

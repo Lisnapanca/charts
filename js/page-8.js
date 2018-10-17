@@ -647,3 +647,4 @@ Highcharts.chart('wordcloud', {
         text: 'Wordcloud of Lorem Ipsum'
     }
 });
+AOS.init();

@@ -91,9 +91,22 @@
   margin-top: -164px;
 }
 #job-chart4, #job-chart5, #job-chart6{
-  width: 200px;
-  height: 100px;
-  margin-top: 40px;
+  width: calc(100% + 100px);
+  height: 150px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 1366px){
+  #job-chart4, #job-chart5, #job-chart6{
+    width: calc(100% + 25px)!important;
+  }
+}
+@media only screen and (max-width: 1700px){
+  #job-chart4, #job-chart5, #job-chart6{
+    width: calc(100% + 50px)!important;
+  }
+}
+.z-index-front{
+  z-index: 9;
 }
 .highcharts-axis-labels highcharts-xaxis-labels {
   color: white;
@@ -113,7 +126,7 @@
   border-radius: 5px;
 }
 #content5-chart{
-  width: 1240px;
+  width: 100%;
   height: 500px;
 }
 .content4-text{
@@ -144,7 +157,14 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
   height: 174px;
+  overflow: hidden;
+}\
+
+@media only screen and (max-width: 991px){
+  .sub-content5{
+    height: auto;
   }
+}
 .sub-content5-big{
   width: 1260px;
   margin-top: 10px;
@@ -232,4 +252,6 @@
 #job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
   display: none;
 }
-#content5-chart .highcharts-xaxis-labels text:nth-last-child{ display: none!important; }
+#content5-chart .highcharts-xaxis-labels text:nth-last-child{ 
+  display: none!important; 
+}

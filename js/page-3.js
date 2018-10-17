@@ -364,7 +364,8 @@ var chart = AmCharts.makeChart( 'content2-chart1', {
   "theme": "light",
   "dataProvider": [ {
     "title": "New",
-    "value": 4852
+    "value": 4852,
+    "color": "#67b7dd"
   }, {
     "title": "Returning",
     "value": 9899
@@ -376,6 +377,7 @@ var chart = AmCharts.makeChart( 'content2-chart1', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -642,3 +644,4 @@ Highcharts.chart('wordcloud', {
         text: 'Wordcloud of Lorem Ipsum'
     }
 });
+AOS.init();
