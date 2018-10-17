@@ -60,6 +60,13 @@ background-color: white;
 .highcharts-button-normal{
   display: none;
 }
-.content-1{
+.content-1,.content-2{
   padding:20px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.text-center{
+  margin-top: 20px;
+}
+.content{
+  background-color: white;
 }
