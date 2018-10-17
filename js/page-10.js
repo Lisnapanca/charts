@@ -397,4 +397,3 @@ var chart = AmCharts.makeChart( 'content2-chart2', {
     "enabled": true
   }
 } );
-AOS.init();

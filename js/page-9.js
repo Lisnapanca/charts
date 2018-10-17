@@ -373,4 +373,3 @@ $( document ).ready(function() {
     $(".highcharts-yaxis-grid").attr('id', 'line-chart');
   })
 });
-AOS.init();
