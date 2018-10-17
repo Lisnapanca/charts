@@ -244,8 +244,8 @@ thead{
   position: relative;
 }
 #job-chart3-1 .highcharts-color-0,#job-chart3-2 .highcharts-color-0,#job-chart3-3 .highcharts-color-0{
-    fill: #7cb5ec;
-    stroke: white;
+  fill: #7cb5ec;
+  stroke: white;
 }
 #job-chart3-2, #job-chart3-3,#job-chart3-5,#job-chart3-6{
   margin-top: -164px;
@@ -276,4 +276,28 @@ thead{
 }
 .highcharts-color-1{
   fill:#fec760;
+}
+/*abu*/
+.highcharts-name-aceh,.highcharts-name-kalimantan-barat,.highcharts-name-sulawesi-tengah,.highcharts-name-maluku{
+  fill: rgb(112,112,112);
+}
+/*oranye*/
+.highcharts-name-banten,.highcharts-name-sumatera-utara,.highcharts-name-kalimantan-timur,.highcharts-name-jawa-tengah,.highcharts-name-bali{
+  fill: rgb(255, 133, 51);
+}
+/*kuning*/
+.highcharts-name-yogyakarta,.highcharts-name-irian-jaya-barat,.highcharts-name-sulawesi-utara,.highcharts-name-riau,.highcharts-name-lampung,.highcharts-name-kepulauan-riau{
+  fill: rgb(255, 204, 0);
+}
+/*hijau tua*/
+.highcharts-name-maluku-utara,.highcharts-name-sumatera-barat,.highcharts-name-sumatera-selatan,.highcharts-name-bangka-belitung,.highcharts-name-kalimantan-selatan,.highcharts-name-nusa-tenggara-barat{
+  fill: rgb(52, 107, 84);
+}
+/*hijau muda*/
+.highcharts-name-papua,.highcharts-name-gorontalo,.highcharts-name-sulawesi-tenggara,.highcharts-name-sulawesi-barat,.highcharts-name-nusa-tenggara-timur,.highcharts-name-jambi,.highcharts-name-bengkulu,.highcharts-name-kalimantan-tengah{
+  fill: rgb(35, 178, 119);
+}
+/*merah*/
+.highcharts-name-jakarta-raya,.highcharts-name-sulawesi-selatan,.highcharts-name-jawa-barat,.highcharts-name-jawa-timur{
+  fill: rgb(178, 35, 42);
 }
