@@ -188,16 +188,48 @@ Highcharts.chart('content-3-chart', {
 var chart = AmCharts.makeChart( "content2-chart3", {
   "type": "pie",
   "credits": {
-      "enabled": false
+    "enabled": false
   },
   "theme": "light",
-  "dataProvider": [ {
+  "dataProvider": [ 
+  {
     "title": "New",
     "value": 4852
-  }, {
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },
+  {
+    "title": "New",
+    "value": 4852
+  },  
+  {
     "title": "Returning",
     "value": 9899
-  } ],
+  } 
+
+  ],
   "titleField": "title",
   "valueField": "value",
   "labelRadius": 5,
@@ -212,21 +244,26 @@ var chart = AmCharts.makeChart( "content2-chart3", {
 var chart = AmCharts.makeChart( "content2-chart4", {
   "type": "pie",
   "theme": "light",
-  "dataProvider": [ {
+  "dataProvider": [ 
+  {
     "title": "New",
-    "value": 4852
-  }, {
+    "value": 4852   
+  }, 
+  {
     "title": "Returning",
     "value": 9899
-  } ],
+  } 
+
+  ],
   "titleField": "title",
   "valueField": "value",
   "labelRadius": 5,
-
+  
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
   "export": {
     "enabled": true
   }
+
 } );

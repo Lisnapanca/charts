@@ -393,3 +393,4 @@ $( document ).ready(function() {
     $(".highcharts-xaxis-labels").attr('id', 'label');
   })
 });
+AOS.init();

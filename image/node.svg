@@ -1,84 +1,51 @@
-<svg id="Group_82" data-name="Group 82" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.255 259.729">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #707070;
-      }
-
-      .cls-2 {
-        fill: #ef5350;
-      }
-
-      .cls-3 {
-        fill: #ab47bc;
-      }
-
-      .cls-4 {
-        fill: #ffee58;
-      }
-
-      .cls-5 {
-        fill: #26a69a;
-      }
-
-      .cls-6 {
-        fill: #ffa726;
-      }
-
-      .cls-7 {
-        fill: #ec407a;
-      }
-
-      .cls-8 {
-        fill: #9ccc65;
-      }
-
-      .cls-9 {
-        fill: #29b6f6;
-      }
-
-      .cls-10 {
-        fill: #f2f2f2;
-      }
-
-      .cls-11 {
-        font-size: 20px;
-        font-family: SourceSansPro-SemiBold, Source Sans Pro;
-        font-weight: 600;
-      }
-    </style>
-  </defs>
-  <line id="Connector" class="cls-1" x1="17.96" y2="91.181" transform="translate(20.032 75.294)"/>
-  <line id="Connector-2" data-name="Connector" class="cls-1" x1="51.117" y2="125.72" transform="translate(31.085 40.755)"/>
-  <line id="Connector-3" data-name="Connector" class="cls-1" x1="92.563" y2="37.301" transform="translate(50.426 140.226)"/>
-  <line id="Connector-4" data-name="Connector" class="cls-1" x1="114.667" y2="5.526" transform="translate(54.571 181.672)"/>
-  <line id="Connector-5" data-name="Connector" class="cls-1" x1="207.23" y1="35.92" transform="translate(47.663 213.447)"/>
-  <line id="Connector-6" data-name="Connector" class="cls-1" x1="150.587" y1="22.105" transform="translate(54.571 198.25)"/>
-  <line id="Connector-7" data-name="Connector" class="cls-1" y1="35.92" x2="69.077" transform="translate(142.989 104.306)"/>
-  <line id="Connector-8" data-name="Connector" class="cls-1" x2="96.707" y2="46.972" transform="translate(137.463 11.743)"/>
-  <line id="Connector-9" data-name="Connector" class="cls-1" y1="6.908" x2="89.8" transform="translate(113.977 90.491)"/>
-  <line id="Connector-10" data-name="Connector" class="cls-1" y1="70.458" x2="51.117" transform="translate(169.238 111.214)"/>
-  <line id="Connector-11" data-name="Connector" class="cls-1" y1="109.141" x2="31.775" transform="translate(205.158 111.214)"/>
-  <line id="Connector-12" data-name="Connector" class="cls-1" x2="124.338" y2="34.538" transform="translate(82.201 40.755)"/>
-  <line id="Connector-13" data-name="Connector" class="cls-1" x1="99.47" y2="156.113" transform="translate(37.992 11.743)"/>
-  <line id="Connector-14" data-name="Connector" class="cls-1" x1="70.458" y2="74.603" transform="translate(43.518 97.398)"/>
-  <line id="Connector-15" data-name="Connector" class="cls-1" x1="9.671" y1="140.917" transform="translate(245.222 108.45)"/>
-  <line id="Connector-16" data-name="Connector" class="cls-1" y1="13.815" x2="178.218" transform="translate(37.992 61.478)"/>
-  <circle id="Node" class="cls-2" cx="11.052" cy="11.052" r="11.052" transform="translate(26.249 63.551)"/>
-  <circle id="Node-2" data-name="Node" class="cls-3" cx="11.052" cy="11.052" r="11.052" transform="translate(70.458 29.012)"/>
-  <circle id="Node-3" data-name="Node" class="cls-4" cx="11.052" cy="11.052" r="11.052" transform="translate(125.72 0)"/>
-  <circle id="Node-4" data-name="Node" class="cls-5" cx="11.052" cy="11.052" r="11.052" transform="translate(131.246 128.483)"/>
-  <circle id="Node-5" data-name="Node" class="cls-6" cx="11.052" cy="11.052" r="11.052" transform="translate(158.876 171.31)"/>
-  <circle id="Node-6" data-name="Node" class="cls-7" cx="11.052" cy="11.052" r="11.052" transform="translate(102.234 85.655)"/>
-  <circle id="Node-7" data-name="Node" class="cls-8" cx="11.052" cy="11.052" r="11.052" transform="translate(243.15 237.624)"/>
-  <circle id="Node-8" data-name="Node" class="cls-9" cx="11.052" cy="11.052" r="11.052" transform="translate(193.415 208.612)"/>
-  <g id="Main_Node" data-name="Main Node" transform="translate(0 165.784)">
-    <circle id="BG" class="cls-10" cx="27.631" cy="27.631" r="27.631"/>
-    <text id="P1" class="cls-11" transform="translate(26.197 33.815)"><tspan x="-10.95" y="0">P1</tspan></text>
-  </g>
-  <g id="Main_Node-2" data-name="Main Node" transform="translate(203.086 58.024)">
-    <circle id="BG-2" data-name="BG" class="cls-10" cx="27.631" cy="27.631" r="27.631"/>
-    <text id="P2" class="cls-11" transform="translate(26.197 33.815)"><tspan x="-10.95" y="0">P2</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Group_82" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 265.3 259.7" style="enable-background:new 0 0 265.3 259.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#707070;}
+	.st1{fill:#EF5350;}
+	.st2{fill:#AB47BC;}
+	.st3{fill:#FFEE58;}
+	.st4{fill:#26A69A;}
+	.st5{fill:#FFA726;}
+	.st6{fill:#EC407A;}
+	.st7{fill:#9CCC65;}
+	.st8{fill:#29B6F6;}
+	.st9{fill:#F2F2F2;}
+	.st10{font-family:'FjallaOne-Regular';}
+	.st11{font-size:20px;}
+</style>
+<line id="Connector" class="st0" x1="38" y1="75.3" x2="20" y2="166.5"/>
+<line id="Connector-2" class="st0" x1="82.2" y1="40.8" x2="31.1" y2="166.5"/>
+<line id="Connector-3" class="st0" x1="143" y1="140.2" x2="50.4" y2="177.5"/>
+<line id="Connector-4" class="st0" x1="169.2" y1="181.7" x2="54.6" y2="187.2"/>
+<line id="Connector-5" class="st0" x1="254.9" y1="249.4" x2="47.7" y2="213.4"/>
+<line id="Connector-6" class="st0" x1="205.2" y1="220.4" x2="54.6" y2="198.2"/>
+<line id="Connector-7" class="st0" x1="143" y1="140.2" x2="212.1" y2="104.3"/>
+<line id="Connector-8" class="st0" x1="137.5" y1="11.7" x2="234.2" y2="58.7"/>
+<line id="Connector-9" class="st0" x1="114" y1="97.4" x2="203.8" y2="90.5"/>
+<line id="Connector-10" class="st0" x1="169.2" y1="181.7" x2="220.4" y2="111.2"/>
+<line id="Connector-11" class="st0" x1="205.2" y1="220.4" x2="236.9" y2="111.2"/>
+<line id="Connector-12" class="st0" x1="82.2" y1="40.8" x2="206.5" y2="75.3"/>
+<line id="Connector-13" class="st0" x1="137.5" y1="11.7" x2="38" y2="167.9"/>
+<line id="Connector-14" class="st0" x1="114" y1="97.4" x2="43.5" y2="172"/>
+<line id="Connector-15" class="st0" x1="254.9" y1="249.4" x2="245.2" y2="108.4"/>
+<line id="Connector-16" class="st0" x1="38" y1="75.3" x2="216.2" y2="61.5"/>
+<circle id="Node" class="st1" cx="37.3" cy="74.6" r="11.1"/>
+<circle id="Node-2" class="st2" cx="81.5" cy="40.1" r="11.1"/>
+<circle id="Node-3" class="st3" cx="136.8" cy="11.1" r="11.1"/>
+<circle id="Node-4" class="st4" cx="142.3" cy="139.5" r="11.1"/>
+<circle id="Node-5" class="st5" cx="169.9" cy="182.4" r="11.1"/>
+<circle id="Node-6" class="st6" cx="113.3" cy="96.7" r="11.1"/>
+<circle id="Node-7" class="st7" cx="254.2" cy="248.7" r="11.1"/>
+<circle id="Node-8" class="st8" cx="204.5" cy="219.7" r="11.1"/>
+<g id="Main_Node" transform="translate(0 165.784)">
+	<circle id="BG" class="st9" cx="27.6" cy="27.6" r="27.6"/>
+	<text transform="matrix(1 0 0 1 16.247 33.815)" class="st10 st11">P1</text>
+</g>
+<g id="Main_Node-2" transform="translate(203.086 58.024)">
+	<circle id="BG-2" class="st9" cx="27.6" cy="27.6" r="27.6"/>
+	<text transform="matrix(1 0 0 1 15.247 33.815)" class="st10 st11">P2</text>
+</g>
 </svg>

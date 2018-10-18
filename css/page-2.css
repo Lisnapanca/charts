@@ -25,6 +25,7 @@
   width   : 100%;
   height    : 500px;
   font-size : 11px;
+  background-color: white;
 } 
 .img-inside-pie{
   width: 250px;
@@ -32,7 +33,7 @@
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   left: 0;
   right: 0;
@@ -41,18 +42,24 @@
 #content-1-chart .highcharts-button-symbol,#content-1-chart .highcharts-exporting-group,#content-1-chart .highcharts-legend{
   display: none;
 }
+#content-2-chart .highcharts-button-symbol,#content-2-chart .highcharts-exporting-group,#content-2-chart .highcharts-legend{
+  display: none;
+}
 #content2-chart3 .amExportButton,#content2-chart3 .amcharts-pie-label,#content2-chart3 .amcharts-pie-tick{
   display: none;
 }
 #content2-chart4 .amExportButton,#content2-chart4 .amcharts-pie-label,#content2-chart4 .amcharts-pie-tick{
   display: none;
 }
-.node,.mapping{
+.node,.mapping,.bgwhite{
 background-color: white;
 }
 .content-3{
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
+}
+.bgwhite{
+  height: 100%;
 }
 #node-image{
   width: 500px;
@@ -63,13 +70,41 @@ background-color: white;
 .content-1,.content-2{
   padding:20px;
   font-family: 'Fjalla One', sans-serif;
-}
-.text-center{
+} 
+.mar-top-20{
   margin-top: 20px;
+  display: inline-block;
 }
 .content{
   background-color: white;
 }
 .main-text{
-  margin-top: -20px;
+  margin-top: 10px;
+}
+#mapping-text,#node-text{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*#negarawan-text{
+  wi
+}*/
+.amcharts-main-div a[href="http://www.amcharts.com"]{
+  display: none!important;
+}
+.pie-chart-thickness{
+  width: calc(100% - 4px);
+    height: 461px;
+    border: 101px solid #fff;
+    border-radius: 400px;
+    position: absolute;
+    top: calc(50% + 23px);
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 9;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0px;
+}
+.highcharts-button-normal{
+  display: none;
 }

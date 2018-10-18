@@ -1,5 +1,7 @@
 Highcharts.chart('content3', {
-
+    chart: {
+        type: 'spline'
+    },
     title: {
         text: ''
     },
@@ -45,16 +47,17 @@ Highcharts.chart('content3', {
     },
 
     series: [{
-        type: 'area',
-        keys: ['y', 'selected'],
-        data: [
-            [29.9, false],
-            [71.5, false],
-            [55.4, false],
-            [129.2, false],
-            [54.0, false],
-            [17.0, false],
-        ]
+        data: [1, 2, 3, 4],
+        step: 'right',
+        name: 'Right'
+    }, {
+        data: [5, 6, 7, 8],
+        step: 'center',
+        name: 'Center'
+    }, {
+        data: [9, 10, 11, 12],
+        step: 'left',
+        name: 'Left'
     }]
 });
 Highcharts.chart('content4', {

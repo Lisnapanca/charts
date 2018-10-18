@@ -346,3 +346,12 @@ thead{
 .job-chart3-1 #chart-content2{
   fill: #ff8533;
 }
+.inside-piechart-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  text-align: center;
+  right: 0;
+  margin: auto;
+}
