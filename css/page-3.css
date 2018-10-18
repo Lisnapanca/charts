@@ -159,14 +159,14 @@
 .positive-dot, .negative-dot, .neutral-dot{
   height: 25px;
   width: 25px;
-  background-color: #fdd400;
+  background-color: #67b7dd;
   border-radius: 50%;
   display: inline-block;
   padding-left: 25px;
   padding-top: 6px;
 }
 .negative-dot{
-  background-color: #67b7dd;
+  background-color: #fdd400;
 }
 .neutral-dot{
   background-color: #f2f2f2;
@@ -308,6 +308,7 @@ thead{
   background-color: white;
   max-width: 100%;
   border-radius: 5px;
+  margin-top: -20px;
 }
 #content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
   height: 120px;
@@ -319,7 +320,8 @@ thead{
   margin-top: 10px;
 }
 #content5-3-2{
-  height: 43px;
+  height: 75px;
+  padding-top: 35px;
 }
 .img-inside-pie{
   width: 150px;
@@ -354,4 +356,17 @@ thead{
   text-align: center;
   right: 0;
   margin: auto;
+}
+#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
+}
+#candidate-1,#candidate-2{
+      margin: 20px 0px 20px 20px;
+}
+.category{
+  margin-top: 45px;
+  margin-left:-15px;
+}
+#job-chart3-4 .highcharts-title,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-title,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
 }

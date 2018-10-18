@@ -252,6 +252,6 @@
 #job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
   display: none;
 }
-#content5-chart .highcharts-xaxis-labels text:nth-last-child{ 
-  display: none!important; 
+#content5-chart .highcharts-yaxis-labels,#content5-chart .highcharts-xaxis-labels,#content3-chart .highcharts-xaxis-labels,#content3-chart .highcharts-yaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
 }

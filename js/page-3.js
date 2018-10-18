@@ -363,12 +363,17 @@ var chart = AmCharts.makeChart( 'content2-chart1', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
+    "title": "Positive",
     "value": 4852,
     "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -386,11 +391,17 @@ var chart = AmCharts.makeChart( 'content2-chart2', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -399,6 +410,7 @@ var chart = AmCharts.makeChart( 'content2-chart2', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -407,11 +419,17 @@ var chart = AmCharts.makeChart( 'content2-chart3', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -420,6 +438,7 @@ var chart = AmCharts.makeChart( 'content2-chart3', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -428,11 +447,17 @@ var chart = AmCharts.makeChart( 'content2-chart4', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -441,6 +466,7 @@ var chart = AmCharts.makeChart( 'content2-chart4', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -449,11 +475,17 @@ var chart = AmCharts.makeChart( 'content2-chart5', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -462,6 +494,7 @@ var chart = AmCharts.makeChart( 'content2-chart5', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -470,11 +503,17 @@ var chart = AmCharts.makeChart( 'content2-chart6', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -483,6 +522,7 @@ var chart = AmCharts.makeChart( 'content2-chart6', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -491,11 +531,17 @@ var chart = AmCharts.makeChart( 'content2-chart7', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -504,6 +550,7 @@ var chart = AmCharts.makeChart( 'content2-chart7', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -512,11 +559,17 @@ var chart = AmCharts.makeChart( 'content2-chart8', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -525,6 +578,7 @@ var chart = AmCharts.makeChart( 'content2-chart8', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -533,11 +587,17 @@ var chart = AmCharts.makeChart( 'content2-chart9', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -546,6 +606,7 @@ var chart = AmCharts.makeChart( 'content2-chart9', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
@@ -554,11 +615,17 @@ var chart = AmCharts.makeChart( 'content2-chart10', {
   "type": "pie",
   "theme": "light",
   "dataProvider": [ {
-    "title": "New",
-    "value": 4852
+    "title": "Positive",
+    "value": 4852,
+    "color": "#67b7dd"
+  },{
+    "title": "Negative",
+    "value": 4852,
+    "color": "#fdd400"
   }, {
-    "title": "Returning",
-    "value": 9899
+    "title": "Neutral",
+    "value": 9899,
+    "color": "#f3f3f2"
   } ],
   "titleField": "title",
   "valueField": "value",
@@ -567,6 +634,7 @@ var chart = AmCharts.makeChart( 'content2-chart10', {
   "radius": "42%",
   "innerRadius": "60%",
   "labelText": "[[title]]",
+  "colorField": "color",
   "export": {
     "enabled": true
   }
