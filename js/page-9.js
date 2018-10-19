@@ -250,6 +250,48 @@ Highcharts.chart('job-chart3-6', {
 
   }]
 });
+// $(function () {
+//     var chart;
+//     $(document).ready(function() {
+//         chart = new Highcharts.Chart({
+//                     chart: {
+//                         renderTo: 'content3'
+//                     },
+            
+//                     //Code for the 'shared' tooltip in Highcharts, not required for HighStock
+//                     tooltip: {
+//                         crosshairs: true,
+//                         shared: true
+//                     },
+          
+//                     series: [{
+//                             type: 'areaspline',
+//                             data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5],
+//                             events: {
+//                                 legendItemClick: function(event) {
+//                                     this.visible? 
+//                                         this.chart.get('myColumnChar').hide():
+//                                         this.chart.get('myColumnChar').show();
+//                                 }
+//                             }
+//                         },{
+//                             type: 'column',
+//                             id: "myColumnChar",
+//                             data: [4.2, 5.7, 8.5, 11.9, 15.2, 17.0],
+//                             showInLegend: false
+//                          },
+//                          {
+//                             type: 'column',
+//                             id: "myColumn",
+//                             data: [4.2, 5.7, 8.5, 11.9, 15.2, 17.0],
+//                             showInLegend: false
+//                          }
+//                     ]
+//                 });
+        
+//     });
+    
+// });
 Highcharts.chart('content3', {
     chart: {
         type: 'areaspline'

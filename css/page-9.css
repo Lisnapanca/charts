@@ -216,11 +216,14 @@ thead{
 .positive-dot, .negative-dot, .neutral-dot{
   height: 25px;
   width: 25px;
-  background-color: #0fb516;
+  background-color: #ff8533;
   border-radius: 50%;
   display: inline-block;
   padding-left: 25px;
   padding-top: 6px;
+}
+.negative-dot{
+  background-color: #17a2b8;
 }
 .content-1,.content-4,.content-7,.content-8,.content-9,.content-10{
   background-color: white;
@@ -298,4 +301,7 @@ thead{
 }
 #job-chart3-3 .highcharts-color-0,#job-chart3-6 .highcharts-color-0 {
   fill: #48ab81;
+}
+#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels,#content4 .highcharts-yaxis-labels,#content4 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
 }
