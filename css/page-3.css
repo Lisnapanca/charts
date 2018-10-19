@@ -109,10 +109,10 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9,.content-10 {
+.content-4,.content-9 {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-8{
+.content3,.content-5,.content-8,.content-10{
   background-color: white;
   padding:10px;
   margin:10px;
@@ -202,9 +202,6 @@
   min-width: 320px;
   margin: 0 auto;
 }
-table{
-  text-align: center;
-}
 thead{
   background-color: #48ab81;
 }
@@ -216,6 +213,7 @@ thead{
 }
 .content9-text{
   float: right;
+  margin-right: 20px;
 }
 .highcharts-xaxis,.highcharts-yaxis{
   display: none;
@@ -298,8 +296,8 @@ thead{
 #content2-chart10 .amExportButton,#content2-chart10 .amcharts-pie-label,#content2-chart10 .amcharts-pie-tick{
   display: none;
 }
-.content6-text,.content10-text,.content8-text{
-  margin-top: 10px;
+.content6-text,.content8-text{
+  margin-top: 17px;
 }
 .category-text{
   padding-left:5px;
@@ -343,7 +341,7 @@ thead{
   display: none;
 }
 .content10-text{
-  padding-top:10px;
+  padding-top:17px;
 }
 .job-chart3-1 #chart-content2{
   fill: #ff8533;
@@ -369,4 +367,18 @@ thead{
 }
 #job-chart3-4 .highcharts-title,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-title,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-xaxis-labels{
   font-family: 'Fjalla One', sans-serif;
+}
+.table-text{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.table{
+  text-align: center;
+  margin-left: 20px;
+  margin-right:5px;
+  width: 96%!important;
+}
+hr{
+  width: 90%;
+  border-top: 2px solid grey!important;
 }
