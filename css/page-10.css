@@ -109,7 +109,7 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9,.content-10 {
+.content-4,.content-9,.content-10,#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels {
   font-family: 'Fjalla One', sans-serif;
 }
 .content3,.content-6,.content-5,.content-7{
@@ -383,4 +383,75 @@ thead{
 /*merah*/
 .highcharts-name-jakarta-raya,.highcharts-name-sulawesi-selatan,.highcharts-name-jawa-barat,.highcharts-name-jawa-timur{
   fill: rgb(178, 35, 42);
+}
+#container .highcharts-legend{
+  display: none;
+}
+.information{
+  width: 500px;
+  height: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px; 
+}
+#red-relawan{
+  background-color: #b2242a;
+}
+#orange-relawan{
+  background-color: #ff8533;
+}
+#yellow-relawan{
+  background-color: #ffcc00;
+}
+#dark-green-relawan{
+  background-color: #346a54;
+}
+#green-relawan{
+  background-color: #23b276;
+}
+#grey-relawan{
+  background-color: #6f6f70;
+}
+.information .col-md-2{
+  height: 20px;
+}
+#category-information{
+  margin-left: 433px;
+  width: 70px;
+  margin-top: -22px;
+}
+#info-category{
+  margin-left:14px;
+}
+#content2-chart2,#content2-chart1{
+  overflow: visible;
+  text-align: left;
+  width: 100%;
+  height: 350px;
+}
+.inside-chart{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-5%);
+  left: 95px;
+  right: 0;
+  margin: auto;
+  margin-top: 10px;
+}
+.pie-chart-thickness{
+  width: calc(100% - 4px);
+  height: 461px;
+  border: 101px solid #fff;
+  border-radius: 400px;
+  position: absolute;
+  top: calc(50% + 23px);
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 9;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0px;
 }
