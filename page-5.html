@@ -9,7 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/export.css" type="text/css" media="all" />
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/page-3.css" rel="stylesheet">
+    <link href="css/page-4.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/aos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
@@ -23,7 +23,7 @@
           <span id="sidebar-icon" class="glyphicon glyphicon-menu-hamburger"></span>
         </div>
         <div class="col-md-4 text-center">
-          <h1>Online Media Performance</h1>
+          <h1>Twitter Performance</h1>
         </div>
         <div class="col-md-4 text-right">
           <h2>20 September 2018</h2>
@@ -32,7 +32,7 @@
     <div class="container-fluid">
       <div class="row content-1">
         <div id="total-text" class="col-md-6">
-            <h3><b>Total # Data</b></h3>
+            <h3><b>Total # Tweet / Mention</b></h3>
         </div>
         <div id="period" class="col-md-6">
             <div class="period-dropdown">
@@ -49,7 +49,7 @@
       <div class="content2">
         <div class="row">
           <div id="candidate1" class="col-md-4"data-aos="fade-right"data-aos-duration="1700">
-            <h3 class="candidate-text">Candidate 1 Total # Data</h3>
+            <h3 class="candidate-text">Candidate 1 Total # Tweet / Mention</h3>
               <div class="row">
                 <div class="col-md-6">
                   <h2 class="content2-text">39K</h2>
@@ -61,53 +61,64 @@
               </div>
           </div>
           <div id="candidate2"class="col-md-4"data-aos="fade-down"data-aos-duration="1700">
-            <h3 class="candidate-text">Candidate 2 Total # Data</h3>
+            <h3 class="candidate-text">Candidate 2 Total # Tweet / Mention</h3>
               <h2 class="content2-text">24K</h2>
               <span class="glyphicon glyphicon-arrow-down percentage second">13.8%</span>
               <div id="job-chart3-2"></div>
           </div>
           <div id="total" class="col-md-4"data-aos="fade-left"data-aos-duration="1700">
-            <h3 class="candidate-text">Total # All Data</h3>
+            <h3 class="candidate-text">Total # All Tweet / Mention</h3>
                 <h2 class="content2-text">72K</h2>
                 <span class="glyphicon glyphicon-arrow-up percentage third">13.8%</span>
                 <div id="job-chart3-3"></div>  
           </div>
         </div>
       </div>
-      <div class="row content3" data-aos="fade-up"data-aos-duration="1700">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="row">
-                <div class="col-md-6">
-                  <h3 class="title-content">Trend # of Article</h3>
-                </div>
-                <div class="col-md-6">
-                  <div class="period-white" class="col-md-6">
-                    <div class="period-dropdown">
-                      <button class="periodbtn period-white"><b>Period</b>
-                        <span class="glyphicon glyphicon-menu-down"></span></button>
-                        <div class="dropdown-content">
-                          <a href="#">Monthly</a>
-                          <a href="#">Weekly</a>
-                          <a href="#">Daily</a>
-                        </div>
-                    </div>
+      <div class="row content3">
+          <div class="col-md-6 bgwhite" data-aos="fade-right"data-aos-duration="1700">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 id="content3-text">Trend # of Tweet / Mention</h2>
+              </div>
+              <div class="col-md-6">
+                <div class="period-dropdown">
+                  <button class="periodbtn1 period-white"><b>Period</b>
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Monthly</a>
+                    <a href="#">Weekly</a>
+                    <a href="#">Daily</a>
                   </div>
                 </div>
               </div>
             </div>
+            <div id="content3-1"></div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div id="content3"></div>
+          <div class="col-md-6 bgwhite" data-aos="fade-left"data-aos-duration="1700">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 id="content3-text">Trend # of Account Tweet / Mention</h2>
+              </div>
+              <div class="col-md-6">
+                <div class="period-dropdown">
+                  <button class="periodbtn1 period-white"><b>Period</b>
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Monthly</a>
+                    <a href="#">Weekly</a>
+                    <a href="#">Daily</a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div id="content3-2"></div>
           </div>
-        </div>
       </div>
       <div class="row content-4">
         <div class="col-md-4">
-          <h2 class="title-content">Sentiment Article [Show By] Trend</h2>
+          <h2 class="title-content">Sentiment Tweet [Show By] Trend</h2>
         </div>
         <div class="col-md-4">
           <div class ="period" class="col-md-6">
@@ -257,7 +268,7 @@
       </div>
       <div class="row content-6">
         <div class="col-md-4">
-          <h2 class="content6-text">Top 5 Account by # of Article</h2>
+          <h2 class="content6-text">Top 5 Account by # of Tweet</h2>
         </div>
         <div class="col-md-4">
             <div class="period-dropdown">
@@ -308,7 +319,7 @@
       </div>
       <div class="row content-8">
         <div class="col-md-6">
-          <h2 class="content8-text">Top 5 Positive and Negative Article</h2>
+          <h2 class="content8-text">Top 5 Positive and Negative Tweet</h2>
         </div>
           <div id="period" class="col-md-6">
             <div class="period-dropdown">
@@ -325,7 +336,7 @@
       <div class="row content-9">
         <div class="col-md-6">
           <div class="bgcolor"data-aos="fade-right"data-aos-duration="1700">
-            <h2 class="table-text">Top 5 Positive Article</h2>
+            <h2 class="table-text">Top 5 Positive Tweet</h2>
             <h2 class="content9-text">Candidate 1</h2>
             <table class="table table-hover">
               <thead>
@@ -376,7 +387,7 @@
               </tbody>
             </table>
             <hr>
-              <h2 class="table-text">Top 5 Negative Article</h2>
+              <h2 class="table-text">Top 5 Negative Tweet</h2>
               <h2 class="content9-text">Candidate 1</h2>
             <table class="table table-hover">
               <thead>
@@ -430,7 +441,7 @@
         </div>
         <div class="col-md-6">
           <div class="bgcolor"data-aos="fade-left"data-aos-duration="1700">
-            <h2 class="table-text">Top 5 Positive Article</h2>
+            <h2 class="table-text">Top 5 Positive Tweet</h2>
             <h2 class="content9-text">Candidate 2</h2>
             <table class="table table-hover">
               <thead>
@@ -481,7 +492,7 @@
               </tbody>
             </table>
             <hr>
-              <h2 class="table-text">Top 5 Negative Article</h2>
+              <h2 class="table-text">Top 5 Negative Tweet</h2>
               <h2 class="content9-text">Candidate 2</h2>
             <table class="table table-hover">
               <thead>
@@ -538,7 +549,7 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-6 content10-text">
-              <h2>Top Keyword Article</h2>
+              <h2>Top Keyword Tweet</h2>
             </div>
               <div id="period" class="col-md-6 bgcolor">
                 <div class="period-dropdown">
@@ -574,7 +585,7 @@
     <script src="js/variwide.js"></script>
     <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script type="text/javascript" src="js/page-3.js"></script>
+    <script type="text/javascript" src="js/page-4.js"></script>
     <script type="text/javascript" src="js/page-1.9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
