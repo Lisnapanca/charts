@@ -106,13 +106,12 @@
 }
 .content3{
   margin-top: 30px;
-  background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
 .content-4,.content-9,.content-10 {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-8{
+.content-5,.content-8{
   background-color: white;
   padding:10px;
   margin:10px;
@@ -342,4 +341,12 @@ thead{
 }
 .content10-text{
   padding-top:10px;
+}
+.bgwhite{
+  background-color: white;
+  height: 100%;
+}
+.mar-top-20{
+  margin-top: 20px;
+  display: inline-block;
 }

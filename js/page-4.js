@@ -300,7 +300,7 @@ Highcharts.chart('job-chart3-7', {
 
   }]
 });
-Highcharts.chart('content3', {
+Highcharts.chart('content3-1', {
     chart: {
         type: 'areaspline'
     },
@@ -359,6 +359,66 @@ Highcharts.chart('content3', {
         data: [1, 3, 4, 3, 3, 5]
     }]
 });
+Highcharts.chart('content3-2', {
+    chart: {
+        type: 'areaspline'
+    },
+    title: {
+        text: ' '
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 150,
+        y: 100,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+    },
+    xAxis: {
+        categories: [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+        ],
+        plotBands: [{ // visualize the weekend
+            from: 4.5,
+            to: 6.5,
+            color: 'rgba(255,133,51, .2)'
+        }]
+    },
+    yAxis: {
+        title: {
+            text: ' '
+        }
+    },
+    tooltip: {
+        shared: true,
+        valueSuffix: ' units'
+    },
+    credits: {
+        enabled: false
+    },
+    plotOptions: {
+        areaspline: {
+            fillOpacity: 0.5
+        }
+    },
+    series: [{
+        name: 'candidate-1',
+        color: 'rgba(255,133,51,0.2)',
+        data: [3, 4, 3, 5, 4, 10]
+    }, {
+        name: 'candidate-2',
+        color: 'rgba(255,204,0,0.2)',
+        data: [1, 3, 4, 3, 3, 5]
+    }]
+});
+
 var chart = AmCharts.makeChart( 'content2-chart1', {
   "type": "pie",
   "theme": "light",
