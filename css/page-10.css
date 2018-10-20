@@ -109,7 +109,7 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9,.content-10,#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels {
+#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels,#content5 .highcharts-yaxis-labels,#content5 .highcharts-xaxis-labels,#content4 .highcharts-yaxis-labels,#content4 .highcharts-xaxis-labels,.content-4,.content-9,.content-10,#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels {
   font-family: 'Fjalla One', sans-serif;
 }
 .content3,.content-6,.content-5,.content-7{
@@ -164,6 +164,7 @@
   display: inline-block;
   padding-left: 25px;
   padding-top: 6px;
+  margin-left: 20px;
 }
 .negative-dot{
   background-color: #67b7dd;
@@ -454,4 +455,8 @@ thead{
   right: 0;
   margin-left: 0;
   margin-right: 0px;
+}
+.positive-dot h3,.negative-dot h3{
+  padding-left: 10px;
+  margin-top: -3px;
 }
