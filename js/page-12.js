@@ -47,17 +47,29 @@ Highcharts.chart('content3', {
     },
 
     series: [{
-        data: [1, 2, 3, 4],
+        data: [5,5,5,5,5,5],
         step: 'right',
-        name: 'Right'
+        name: 'Lain-lain'
     }, {
-        data: [5, 6, 7, 8],
+        data: [6,6,6,6,6,6],
         step: 'center',
-        name: 'Center'
+        name: 'Ujaran Kebencian'
+    },{
+        data: [1,1,1,1,1,1],
+        step: 'center',
+        name: 'Hoax'
+    },{
+        data: [4,4,4,4,4,4],
+        step: 'center',
+        name: 'Politik Uang'
+    },{
+        data: [2,2,2,2,2,2],
+        step: 'center',
+        name: 'Perusakan Atribut'
     }, {
-        data: [9, 10, 11, 12],
+        data: [3,3,3,3,3,3],
         step: 'left',
-        name: 'Left'
+        name: 'Black Campaign'
     }]
 });
 Highcharts.chart('content4', {
@@ -179,12 +191,13 @@ Highcharts.chart('job-chart3-3', {
     
     xAxis: {
         categories: [
-            'Black Campaign',
-            'Perusak Atribut',
-            'Ujaran Kebencian',
-            'Hoax',
-            'Politik Uang',
-            'Lain Lain',
+            'Entertaiment',
+            'Kerja Bakti',
+            'Kajian Publik',
+            'Pengajian',
+            'Kompetisi',
+            'Olahraga',
+            'Lain-lain'
         ],
         crosshair: true
     },
@@ -209,7 +222,7 @@ Highcharts.chart('job-chart3-3', {
         }
     },
     series: [{
-        data: [50, 90, 80, 40, 120],
+        data: [50, 90, 80, 40, 120,30,70],
         colorByPoint: true
     }]
 });
@@ -226,12 +239,13 @@ Highcharts.chart('job-chart3-2', {
     
     xAxis: {
         categories: [
-            'Black Campaign',
-            'Perusak Atribut',
-            'Ujaran Kebencian',
-            'Hoax',
-            'Politik Uang',
-            'Lain Lain',
+            'Entertaiment',
+            'Kerja Bakti',
+            'Kajian Publik',
+            'Pengajian',
+            'Kompetisi',
+            'Olahraga',
+            'Lain-lain'
         ],
         crosshair: true
     },
@@ -256,7 +270,7 @@ Highcharts.chart('job-chart3-2', {
         }
     },
     series: [{
-        data: [50, 90, 80, 40, 120],
+        data: [50, 90, 80, 40, 120,30,70],
         colorByPoint: true
     }]
 });
