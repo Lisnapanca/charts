@@ -40,7 +40,7 @@
   max-width: 30%;
   font-family: 'Fjalla One', sans-serif;
 }
-.candidate-text{
+.candidate-text, .content-6 h2{
   margin-top: 15px;
 }
 .periodbtn,.periodbtn1 {
@@ -109,10 +109,10 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9,.content-10 {
+#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels,#content5 .highcharts-yaxis-labels,#content5 .highcharts-xaxis-labels,#content4 .highcharts-yaxis-labels,#content4 .highcharts-xaxis-labels,.content-4,.content-9,.content-10,#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-7,.content-6{
+.content3,.content-6,.content-5,.content-7{
   background-color: white;
   padding:10px;
   margin:10px;
@@ -164,6 +164,7 @@
   display: inline-block;
   padding-left: 25px;
   padding-top: 6px;
+  margin-left: 20px;
 }
 .negative-dot{
   background-color: #67b7dd;
@@ -237,7 +238,7 @@ thead{
 .period{
   background-color: #f5f5f5;
 }
-.title-content, .content-6 h2{
+.title-content{
   margin-top: 15px;
 }
 #job-chart3-2 #chart-content2 {
@@ -383,4 +384,78 @@ thead{
 /*merah*/
 .highcharts-name-jakarta-raya,.highcharts-name-sulawesi-selatan,.highcharts-name-jawa-barat,.highcharts-name-jawa-timur{
   fill: rgb(178, 35, 42);
+}
+#container .highcharts-legend{
+  display: none;
+}
+.information{
+  width: 500px;
+  height: 20px;
+  margin-left: 100px;
+  margin-bottom: 30px; 
+}
+#red-relawan{
+  background-color: #b2242a;
+}
+#orange-relawan{
+  background-color: #ff8533;
+}
+#yellow-relawan{
+  background-color: #ffcc00;
+}
+#dark-green-relawan{
+  background-color: #346a54;
+}
+#green-relawan{
+  background-color: #23b276;
+}
+#grey-relawan{
+  background-color: #6f6f70;
+}
+.information .col-md-2{
+  height: 20px;
+}
+#category-information{
+  margin-left: 433px;
+  width: 70px;
+  margin-top: -22px;
+}
+#info-category{
+  margin-left:14px;
+}
+#content2-chart2,#content2-chart1{
+  overflow: visible;
+  text-align: left;
+  width: 100%;
+  height: 350px;
+}
+.inside-chart{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-5%);
+  left: 95px;
+  right: 0;
+  margin: auto;
+}
+.pie-chart-thickness{
+  width: calc(100% - 4px);
+  height: 461px;
+  border: 101px solid #fff;
+  border-radius: 400px;
+  position: absolute;
+  top: calc(50% + 23px);
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 9;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0px;
+}
+.positive-dot h3,.negative-dot h3{
+  padding-left: 10px;
+  margin-top: -3px;
 }

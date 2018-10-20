@@ -440,7 +440,6 @@ thead{
   left: 95px;
   right: 0;
   margin: auto;
-  margin-top: 10px;
 }
 .pie-chart-thickness{
   width: calc(100% - 4px);
