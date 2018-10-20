@@ -352,3 +352,9 @@ thead{
 #job-chart3-5 .highcharts-color-0{
   fill:#ffcc66;
 }
+.content3 h3{
+  margin-top:20px;
+}
+#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
+}
