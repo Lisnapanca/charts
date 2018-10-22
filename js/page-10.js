@@ -397,3 +397,10 @@ var chart = AmCharts.makeChart( 'content2-chart2', {
     "enabled": true
   }
 } );
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

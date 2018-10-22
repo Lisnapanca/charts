@@ -10,9 +10,8 @@
   width: 100%;
   height: auto;
   background: #C6FFDD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-top: -20px;
 }
 .content-1{
@@ -222,13 +221,13 @@ background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+
   display: none;
 }
 #chart-content2 {
-  fill: #ff8533;
+  fill: #f99180;
 }
 #job-chart2 #chart-content2 {
-  fill: #ffcc00;
+  fill: #fcce86;
 }
 #job-chart3 #chart-content2 {
-  fill: #48ab81;
+  fill: #c6fedc;
 }
 #job-chart5 .highcharts-color-0{
   fill:#ffcc00;
@@ -264,7 +263,9 @@ background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #48ab81;
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;

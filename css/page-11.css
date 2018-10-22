@@ -309,6 +309,14 @@ thead{
   max-width: 100%;
   border-radius: 5px;
 }
+.container-fluid{
+  width: 100%;
+  height: auto;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: -20px;
+}
 #content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
   height: 120px;
 }
@@ -458,4 +466,55 @@ thead{
 .positive-dot h3,.negative-dot h3{
   padding-left: 10px;
   margin-top: -3px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.sidenav a:hover {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav h3{
+  padding-top: 15px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.menu-icon{
+  font-size:30px;
+  cursor:pointer;
+}
+.period-trans{
+  background-color: transparent;
 }

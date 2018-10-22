@@ -415,3 +415,10 @@ $( document ).ready(function() {
     $(".highcharts-yaxis-grid").attr('id', 'line-chart');
   })
 });
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

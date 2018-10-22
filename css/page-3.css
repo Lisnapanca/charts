@@ -13,11 +13,14 @@
 .container-fluid{
   width: 100%;
   height: auto;
-  background-color: #f5f5f5;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-top: -20px;
 }
 .content-1{
-  background-color: #f5f5f5;
+  background-color: transparent;
   margin:5px;
   font-family: 'Fjalla One', sans-serif;
   margin-top: 5px;
@@ -222,7 +225,7 @@ thead{
   display: none;
 }
 #chart-content2,#job-chart3-1 {
-  fill: #ff8533;
+  fill: #f99080;
 }
 .first{
   color: green;
@@ -240,10 +243,10 @@ thead{
   margin-top: 15px;
 }
 #job-chart3-2 #chart-content2 {
-  fill: #ffcc00;
+  fill: #fcce86;
 }
 #job-chart3-3 #chart-content2 {
-  fill: #48ab81;
+  fill: #c6fedc;
 }
 #job-chart3-1 .highcharts-axis-line,#job-chart3-1 .highcharts-yaxis-grid,#job-chart3-1 .highcharts-yaxis,#job-chart3-1 .highcharts-yaxis-labels,#job-chart3-1 .highcharts-axis-labels,#job-chart3-1 .highcharts-xaxis{
   display: none;
@@ -389,7 +392,9 @@ hr{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -399,13 +404,15 @@ hr{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffcc00;
+    text-decoration: none;
 }
 
 .sidenav .closebtn {
@@ -415,7 +422,9 @@ hr{
     font-size: 36px;
     margin-left: 50px;
 }
-
+.sidenav h3{
+  padding-top: 15px;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -423,4 +432,7 @@ hr{
 .menu-icon{
   font-size:30px;
   cursor:pointer;
+}
+.period-trans{
+  background-color: transparent;
 }
