@@ -20,10 +20,18 @@
   margin-top: -20px;
 }
 .content-1{
-  background-color: #f5f5f5;
+  background-color: transparent;
   margin:5px;
   font-family: 'Fjalla One', sans-serif;
   margin-top: 5px;
+}
+#candidate1, #candidate2, #total{
+  margin-left: 45px;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  max-width: 30%;
+  font-family: 'Fjalla One', sans-serif;
 }
 #candidate1, #candidate2, #total{
   width: 200px;
@@ -43,32 +51,45 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    background-color: #f5f5f5;
+    background-color: transparent;
+    border-radius: 5px;
 }
-.period-dropdown {
+.period-dropdown,.period-dropdown-white {
     position: relative;
     display: inline-block;
     float: right;
 }
-.dropdown-content {
+.dropdown-content,.dropdown-content-white {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #c6fedc;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown-content a {
+.dropdown-content a ,.dropdown-content-white a{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #f5f5f5; color: inherit; text-decoration: none;}
-
-.period-dropdown:hover .dropdown-content {display: block;}
-
-.period-dropdown:hover .periodbtn {background-color: white;}
+.dropdown-content a:hover ,.dropdown-content-white a:hover{
+  background-color: #fdce86; 
+  color: inherit; 
+  text-decoration: none;
+}
+.period-dropdown:hover .dropdown-content,.period-dropdown-white:hover .dropdown-content-white {
+  display: block;
+}
+.period-dropdown:hover .periodbtn {
+  background-color: #c6fedc;
+}
+.period-dropdown-white:hover .periodbtn{
+  background-color: white;
+}
+.dropdown-content-white{
+  background-color: white;
+}
 #sidebar-icon{
   font-size:20px;
   cursor: pointer;
@@ -104,17 +125,17 @@
   background-color: white;
   font-family: 'Fjalla One', sans-serif;
 }
-.content-4,.content-9,.content-10 {
+.content-4,.content-9 {
   font-family: 'Fjalla One', sans-serif;
 }
-.content3,.content-5,.content-8{
+.content3,.content-5,.content-8,.content-10{
   background-color: white;
   padding:10px;
   margin:10px;
   font-family: 'Fjalla One', sans-serif;
 }
 .content-8,.content-5{
-  background-color: #f5f5f5;
+  background-color: transparent;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
   width: 220px;
@@ -154,14 +175,14 @@
 .positive-dot, .negative-dot, .neutral-dot{
   height: 25px;
   width: 25px;
-  background-color: #fdd400;
+  background-color: #67b7dd;
   border-radius: 50%;
   display: inline-block;
   padding-left: 25px;
   padding-top: 6px;
 }
 .negative-dot{
-  background-color: #67b7dd;
+  background-color: #fdd400;
 }
 .neutral-dot{
   background-color: #f2f2f2;
@@ -178,7 +199,7 @@
   margin-top: 5px;
   margin-left:30px;
 }
-.content-1{
+.content-1,.content-7{
   font-family: 'Fjalla One', sans-serif;
 }
 .amcharts-chart-div{
@@ -190,15 +211,12 @@
 #wordcloud{
   min-width: 310px;
   max-width: 800px;
-  margin: 0 auto
+  margin: 40px 0px 40px 555px; 
 }
 #content3, #content5 {
   height: 400px;
   min-width: 320px;
   margin: 0 auto;
-}
-table{
-  text-align: center;
 }
 thead{
   background-color: #48ab81;
@@ -211,6 +229,7 @@ thead{
 }
 .content9-text{
   float: right;
+  margin-right: 20px;
 }
 .highcharts-xaxis,.highcharts-yaxis{
   display: none;
@@ -218,8 +237,8 @@ thead{
 .highcharts-plot-bands-0{
   display: none;
 }
-#chart-content2 {
-  fill: #ff8533;
+#chart-content2,#job-chart3-1 {
+  fill: #f99080;
 }
 .first{
   color: green;
@@ -237,10 +256,10 @@ thead{
   margin-top: 15px;
 }
 #job-chart3-2 #chart-content2 {
-  fill: #ffcc00;
+  fill: #fcce86;
 }
 #job-chart3-3 #chart-content2 {
-  fill: #48ab81;
+  fill: #c6fedc;
 }
 #job-chart3-1 .highcharts-axis-line,#job-chart3-1 .highcharts-yaxis-grid,#job-chart3-1 .highcharts-yaxis,#job-chart3-1 .highcharts-yaxis-labels,#job-chart3-1 .highcharts-axis-labels,#job-chart3-1 .highcharts-xaxis{
   display: none;
@@ -293,8 +312,8 @@ thead{
 #content2-chart10 .amExportButton,#content2-chart10 .amcharts-pie-label,#content2-chart10 .amcharts-pie-tick{
   display: none;
 }
-.content6-text,.content10-text,.content8-text{
-  margin-top: 10px;
+.content6-text,.content8-text{
+  margin-top: 17px;
 }
 .category-text{
   padding-left:5px;
@@ -303,6 +322,7 @@ thead{
   background-color: white;
   max-width: 100%;
   border-radius: 5px;
+  margin-top: -20px;
 }
 #content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
   height: 120px;
@@ -314,7 +334,8 @@ thead{
   margin-top: 10px;
 }
 #content5-3-2{
-  height: 43px;
+  height: 75px;
+  padding-top: 35px;
 }
 .img-inside-pie{
   width: 150px;
@@ -336,7 +357,46 @@ thead{
   display: none;
 }
 .content10-text{
-  padding-top:10px;
+  padding-top:17px;
+}
+.job-chart3-1 #chart-content2{
+  fill: #ff8533;
+}
+.inside-piechart-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  text-align: center;
+  right: 0;
+  margin: auto;
+}
+#content3 .highcharts-yaxis-labels,#content3 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
+}
+#candidate-1,#candidate-2{
+      margin: 20px 0px 20px 20px;
+}
+.category{
+  margin-top: 45px;
+  margin-left:-15px;
+}
+#job-chart3-4 .highcharts-title,#job-chart3-4 .highcharts-yaxis-labels,#job-chart3-4 .highcharts-xaxis-labels,#job-chart3-5 .highcharts-title,#job-chart3-5 .highcharts-yaxis-labels,#job-chart3-5 .highcharts-xaxis-labels{
+  font-family: 'Fjalla One', sans-serif;
+}
+.table-text{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.table{
+  text-align: center;
+  margin-left: 20px;
+  margin-right:5px;
+  width: 96%!important;
+}
+hr{
+  width: 90%;
+  border-top: 2px solid grey!important;
 }
 .sidenav {
     height: 100%;
@@ -388,4 +448,10 @@ thead{
 }
 .period-trans{
   background-color: transparent;
+}
+#btn-4{
+  margin-bottom:10px;
+}
+#btn-content4{
+  margin-bottom:10px;
 }
