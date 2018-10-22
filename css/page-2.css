@@ -57,7 +57,7 @@
 #content2-chart4 .amExportButton,#content2-chart4 .amcharts-pie-label,#content2-chart4 .amcharts-pie-tick{
   display: none;
 }
-.node,.mapping,.bgwhite{
+.bgwhite{
 background-color: white;
 }
 .content-3{
@@ -90,6 +90,9 @@ background-color: white;
 #mapping-text,#node-text{
   padding-top: 25px;
   margin-bottom: 25px;
+}
+#node-text{
+  margin-left: 240px;
 }
 #negarawan-text{
   width: 150px;
@@ -266,31 +269,31 @@ font-family: 'Fjalla One', sans-serif;
 }
 
 #chart-custom .cls-2,#chart-custom-2 .cls-15 {
-fill:#ef5350;
+fill:#cd82ad;
 }
 
 #chart-custom .cls-3,#chart-custom-2 .cls-14 {
-fill:#ab47bc;
+fill:#304072;
 }
 
 #chart-custom .cls-4,#chart-custom-2 .cls-13 {
-fill:#ffee58;
+fill:#448c4c;
 }
 
 #chart-custom .cls-5,#chart-custom-2 .cls-12 {
-fill:#26a69a;
+fill:#84b761;
 }
 
 #chart-custom .cls-6,#chart-custom-2 .cls-18 {
-fill:#ffa726;
+fill:#b7b83f;
 }
 
 #chart-custom .cls-7,#chart-custom-2 .cls-25 {
-fill:#ec407a;
+fill:#cc4748  ;
 }
 
 #chart-custom .cls-8,#chart-custom-2 .cls-17 {
-fill:#9ccc65;
+fill:#fdd400;
 }
 
 #chart-custom .cls-9,#chart-custom-2 .cls-16 {
@@ -305,13 +308,40 @@ fill:#f2f2f2;
 opacity:0.5;
 }
 .custom-chart-wrapper{
-  width: 75%;
+  width: 90%;
   height: auto;
   background-color: transparent;
+  margin-bottom:20px;
 }
 .node{
   width: 70%;
 }
-#group_82{
-  height: 300px;
+#Group_82{
+  padding-left: 140px;
+  margin-top: -20px;
+}
+#Layer_1{
+  margin-top:100px;
+  padding-left: 40px;
+}
+#content-1-chart .highcharts-color-7,#content-2-chart .highcharts-color-7,#content-3-chart .highcharts-color-7{
+  fill: #67b7de;
+}
+#content-1-chart .highcharts-color-3,#content-2-chart .highcharts-color-3,#content-3-chart .highcharts-color-3{
+  fill: #84b761;
+}
+#content-1-chart .highcharts-color-4,#content-2-chart .highcharts-color-4,#content-3-chart .highcharts-color-4{
+  fill: #b7b83f;
+}
+#content-1-chart .highcharts-color-5,#content-2-chart .highcharts-color-5,#content-3-chart .highcharts-color-5{
+  fill: #cc4748;
+}
+#content-1-chart .highcharts-color-2,#content-2-chart .highcharts-color-2,#content-3-chart .highcharts-color-2{
+  fill: #448c4c;
+}
+#content-1-chart .highcharts-color-1,#content-2-chart .highcharts-color-1,#content-3-chart .highcharts-color-1{
+  fill: #304072;
+}
+#content-1-chart .highcharts-color-0,#content-2-chart .highcharts-color-0,#content-3-chart .highcharts-color-0{
+  fill: #cd82ad;
 }
