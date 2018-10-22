@@ -63,11 +63,11 @@
 .candidate-text{
   margin-top: 15px;
 }
-.dropdown-content a:hover {background-color: #ddd; color: inherit; text-decoration: none;}
+.dropdown-content a:hover {background-color: #fdce86; color: inherit; text-decoration: none;}
 
 .period-dropdown:hover .dropdown-content {display: block;}
 
-.period-dropdown:hover .periodbtn {background-color: white;}
+.period-dropdown:hover .periodbtn {background-color: #fdce86;}
 #sidebar-icon{
   font-size:20px;
   cursor: pointer;
@@ -307,3 +307,5 @@
 .period-trans{
   background-color: transparent;
 }
+
+

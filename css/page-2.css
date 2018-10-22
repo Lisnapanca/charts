@@ -210,3 +210,108 @@ background-color: white;
 .period-trans{
   background-color: transparent;
 }
+
+
+/*svg*/
+
+
+#chart-custom .cls-1 {
+fill:none;
+stroke:#707070;
+}
+
+#chart-custom .cls-11 {
+isolation:isolate;
+font-size:20px;
+font-family: 'Fjalla One', sans-serif;
+}
+
+#chart-custom-2 .cls-1,#chart-custom-2 .cls-10,#chart-custom-2 .cls-11,#chart-custom-2 .cls-20,#chart-custom-2 .cls-21,#chart-custom-2 .cls-22,#chart-custom-2 .cls-23,#chart-custom-2 .cls-24,#chart-custom-2 .cls-3,#chart-custom-2 .cls-5,#chart-custom-2 .cls-6,#chart-custom-2 .cls-7,#chart-custom-2 .cls-8 {
+fill:none;
+stroke-width:3px;
+}
+
+#chart-custom-2 .cls-1,#chart-custom-2 .cls-10,#chart-custom-2 .cls-11,#chart-custom-2 .cls-20,#chart-custom-2 .cls-21,#chart-custom-2 .cls-22,#chart-custom-2 .cls-23,#chart-custom-2 .cls-24,#chart-custom-2 .cls-3,#chart-custom-2 .cls-5,#chart-custom-2 .cls-7,#chart-custom-2 .cls-8 {
+stroke:#424242;
+}
+
+#chart-custom-2 .cls-1,#chart-custom-2 .cls-10,#chart-custom-2 .cls-11,#chart-custom-2 .cls-19,#chart-custom-2 .cls-2,#chart-custom-2 .cls-20,#chart-custom-2 .cls-21,#chart-custom-2 .cls-22,#chart-custom-2 .cls-23,#chart-custom-2 .cls-24,#chart-custom-2 .cls-3,#chart-custom-2 .cls-5,#chart-custom-2 .cls-6,#chart-custom-2 .cls-7,#chart-custom-2 .cls-8 {
+isolation:isolate;
+}
+
+#chart-custom-2 .cls-19,#chart-custom-2 .cls-2 {
+font-size:10px;
+fill:#424242;
+}
+
+#chart-custom-2 .cls-2 {
+font-family: 'Fjalla One', sans-serif;
+}
+
+#chart-custom-2 .cls-10,#chart-custom-2 .cls-20,#chart-custom-2 .cls-21,#chart-custom-2 .cls-22,#chart-custom-2 .cls-23,#chart-custom-2 .cls-24,#chart-custom-2 .cls-5 {
+stroke-dasharray:5;
+}
+
+#chart-custom-2 .cls-6 {
+stroke:#fff;
+opacity:0.25;
+}
+
+#chart-custom-2 .cls-9 {
+letter-spacing:-.11em;
+}
+
+#chart-custom-2 .cls-19 {
+font-family: 'Fjalla One', sans-serif;
+}
+
+#chart-custom .cls-2,#chart-custom-2 .cls-15 {
+fill:#ef5350;
+}
+
+#chart-custom .cls-3,#chart-custom-2 .cls-14 {
+fill:#ab47bc;
+}
+
+#chart-custom .cls-4,#chart-custom-2 .cls-13 {
+fill:#ffee58;
+}
+
+#chart-custom .cls-5,#chart-custom-2 .cls-12 {
+fill:#26a69a;
+}
+
+#chart-custom .cls-6,#chart-custom-2 .cls-18 {
+fill:#ffa726;
+}
+
+#chart-custom .cls-7,#chart-custom-2 .cls-25 {
+fill:#ec407a;
+}
+
+#chart-custom .cls-8,#chart-custom-2 .cls-17 {
+fill:#9ccc65;
+}
+
+#chart-custom .cls-9,#chart-custom-2 .cls-16 {
+fill:#29b6f6;
+}
+
+#chart-custom .cls-10,#chart-custom-2 .cls-4 {
+fill:#f2f2f2;
+}
+
+#chart-custom-2 .cls-1,#chart-custom-2 .cls-5,#chart-custom-2 .cls-23,#chart-custom-2 .cls-3,#chart-custom-2 .cls-7,#chart-custom-2 .cls-8,#chart-custom-2 .cls-10,#chart-custom-2 .cls-11,#chart-custom-2 .cls-20,#chart-custom-2 .cls-21,#chart-custom-2 .cls-22,#chart-custom-2 .cls-24 {
+opacity:0.5;
+}
+.custom-chart-wrapper{
+  width: 75%;
+  height: auto;
+  background-color: transparent;
+}
+.node{
+  width: 70%;
+}
+#group_82{
+  height: 300px;
+}
