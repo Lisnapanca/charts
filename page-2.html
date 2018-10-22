@@ -18,7 +18,7 @@
   <body>
     <nav class="navbar navbar-default">
         <div class="col-md-4">
-          <span id="sidebar-icon" class="glyphicon glyphicon-menu-hamburger"></span>
+          <span class="menu-icon" onclick="openNav()">&#9776;</span>
         </div>
         <div class="col-md-4 text-center">
           <h1 class="main-text">Competitive Mapping Summary</h1>
@@ -27,6 +27,13 @@
           <h2>20 September 2018</h2>
         </div>  
     </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="page-1.html">Overall Score Summary</a>
+        <a href="page-2.html">Competitive Mapping Summary</a>
+        <a href="page-3.html">Online Media Performance</a>
+        <a href="page-4.html">Facebook Performance</a>
+    </div>
     <div class="container-fluid">
         <div class="row content-1">
             <div class="col-md-6">
@@ -91,7 +98,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="dot negarawan">
-                                <h3 id="negarawan-text" class="category-text">Jiwa Negarawan</h3>
+                                <h3 id="negarawan-text"  class="category-text">Jiwa Negarawan</h3>
                             </div>
                         </div>
                     </div>
