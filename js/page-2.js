@@ -35,7 +35,7 @@
 // };
 
 // Apply the theme
-Highcharts.setOptions(Highcharts.theme);
+// Highcharts.setOptions(Highcharts.theme);
 Highcharts.chart('content-1-chart', {
     chart: {
         type: 'column'

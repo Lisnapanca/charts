@@ -349,13 +349,13 @@ thead{
   padding-top:10px;
 }
 .highcharts-color-0{
-  fill: #ff8533;
+  fill: #f98f7f;
 }
 #job-chart3-2 .highcharts-color-0{
-  fill:#ffcc00;
+  fill:#fdce86;
 }
 #job-chart3-3 .highcharts-color-0{
-  fill:#48ab81;
+  fill:#c6fedc;
 }
 .sidenav {
     height: 100%;
@@ -410,7 +410,7 @@ thead{
 }
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
