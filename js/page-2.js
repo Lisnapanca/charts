@@ -289,6 +289,7 @@ var chart = AmCharts.makeChart( "content2-chart4", {
     "enabled": true
   }
 } );
+document.getElementById("mySidenav").style.width = "0"
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }

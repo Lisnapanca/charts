@@ -13,9 +13,9 @@
 .container-fluid{
   width: 100%;
   height: auto;
-  background: #C6FFDD;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin-top: -20px;
 }
@@ -93,6 +93,7 @@ background-color: white;
 }
 #node-text{
   margin-left: 240px;
+  color: white;
 }
 #negarawan-text{
   width: 150px;
@@ -220,7 +221,7 @@ background-color: white;
 
 #chart-custom .cls-1 {
 fill:none;
-stroke:#707070;
+stroke:black;
 }
 
 #chart-custom .cls-11 {
@@ -344,4 +345,7 @@ opacity:0.5;
 }
 #content-1-chart .highcharts-color-0,#content-2-chart .highcharts-color-0,#content-3-chart .highcharts-color-0{
   fill: #cd82ad;
+}
+#Line_10{
+  stroke: black;
 }
