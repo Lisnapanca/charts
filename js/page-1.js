@@ -394,11 +394,12 @@ $( document ).ready(function() {
   })
 });
 AOS.init();
-document.getElementById("sidebar").style.width = "0"
+document.getElementById("mySidenav").style.width = "0"
+
 function openNav() {
-    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("mySidenav").style.width = "300px";
 }
 
 function closeNav() {
-    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("mySidenav").style.width = "0";
 }
