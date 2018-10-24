@@ -1,5 +1,5 @@
 var data = [
-    ['id-3700',"#8EE244"],
+    ['id-3700', 0],
     ['id-ac', 1],
     ['id-ki', 2],
     ['id-jt', 3],
@@ -36,43 +36,43 @@ var data = [
 ];
 
 // Create the chart
-Highcharts.mapChart('container', {
-    chart: {
-        map: 'countries/id/id-all'
-    },
+    Highcharts.mapChart('container', {
+        chart: {
+            map: 'countries/id/id-all'
+        },
 
-    title: {
-        text: 'Relawan Distribution Arean'
-    },
+        title: {
+            text: 'Relawan Distribution Arean'
+        },
 
-    subtitle: {
-        text: 'Source map: <a href="js/id-all.js">Indonesia</a>'
-    },
+        subtitle: {
+            text: 'Source map: <a href="js/id-all.js">Indonesia</a>'
+        },
 
-    mapNavigation: {
-        enabled: true,
-        buttonOptions: {
-            verticalAlign: 'bottom'
-        }
-    },
-
-    colorAxis: {
-        min: 0
-    },
-    credits: {
-      enabled: false
-  },
-    series: [{
-        data: data,
-        name: 'Random data',
-        states: {
-            hover: {
-                color: '#BADA55'
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
             }
         },
-        dataLabels: {
-            enabled: true,
-            format: '{point.name}'
-        }
-    }]
-});
+
+        colorAxis: {
+            min: 0
+        },
+        credits: {
+          enabled: false
+      },
+        series: [{
+            data: data,
+            name: 'Random data',
+            states: {
+                hover: {
+                    color: '#BADA55'
+                }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}'
+            }
+        }]
+    });

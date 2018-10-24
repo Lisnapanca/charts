@@ -37,7 +37,7 @@
   margin-top: 5px;
 }
 .periodbtn {
-  background-color: #f5f5f5;
+  background-color: transparent;
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -53,7 +53,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -310,7 +310,7 @@ thead{
 }
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 0px;
     position: fixed;
     z-index: 1;
     top: 0;

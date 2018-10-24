@@ -62,7 +62,7 @@
 .dropdown-content,.dropdown-content-white {
     display: none;
     position: absolute;
-    background-color: #c6fedc;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -82,7 +82,7 @@
   display: block;
 }
 .period-dropdown:hover .periodbtn {
-  background-color: #c6fedc;
+  background-color: white;
 }
 .period-dropdown-white:hover .periodbtn{
   background-color: white;
@@ -104,6 +104,7 @@
 #total-text{
   margin-top: 15px;
   margin-bottom: -40px;
+  color: white;
 }
 .percentage{
   font-size:15px;
@@ -127,6 +128,9 @@
 }
 .content-4,.content-9 {
   font-family: 'Fjalla One', sans-serif;
+}
+body{
+  overflow: visible;
 }
 .content3,.content-5,.content-8,.content-10{
   background-color: white;
@@ -201,6 +205,9 @@
 .content-1,.content-7{
   font-family: 'Fjalla One', sans-serif;
 }
+.content-7{
+  margin-top: 15px;
+}
 .amcharts-chart-div{
   height: 200px;
 }
@@ -249,10 +256,11 @@ thead{
   background-color: white;
 }
 .period{
-  background-color: #f5f5f5;
+  background-color: white;
 }
 .title-content{
   margin-top: 15px;
+  color: white;
 }
 #job-chart3-2 #chart-content2 {
   fill: #fcce86;
@@ -313,6 +321,10 @@ thead{
 }
 .content6-text,.content8-text{
   margin-top: 17px;
+  color: white;
+}
+.content8-text{
+  color: white;
 }
 .category-text{
   padding-left:5px;
@@ -399,7 +411,7 @@ hr{
 }
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 0px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -453,4 +465,7 @@ hr{
 }
 #btn-content4{
   margin-bottom:10px;
+}
+.content9-table{
+  padding-bottom: 20px;
 }

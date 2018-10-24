@@ -11,7 +11,7 @@
   height: auto;
 }
 .content-1{
-  background-color: #f5f5f5;
+  background-color: transparent;
   margin:5px;
   font-family: 'Fjalla One', sans-serif;
   margin-top: 5px;
@@ -42,7 +42,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    background-color: #f5f5f5;
+    background-color: transparent;
 }
 .period-dropdown {
     position: relative;
@@ -52,7 +52,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -113,7 +113,7 @@
   font-family: 'Fjalla One', sans-serif;
 }
 .content-8,.content-5{
-  background-color: #f5f5f5;
+  background-color: transparent;
 }
 .president-photos,#number, #trophy, #losing, #comparison{
   width: 220px;
@@ -303,15 +303,6 @@ thead{
   max-width: 100%;
   border-radius: 5px;
 }
-.container-fluid{
-  width: 100%;
-  height: auto;
- background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  margin-top: -20px;
-}
 #content2-chart3,#content2-chart4,#content2-chart1,#content2-chart2,#content2-chart5,#content2-chart6,#content2-chart7,#content2-chart9{
   height: 120px;
 }
@@ -360,6 +351,14 @@ thead{
 }
 .second,.third{
   color: red;
+}
+.container-fluid{
+  width: 100%;
+  height: auto;
+background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: -20px;
 }
 .highcharts-exporting-group{
   display: none;
@@ -464,7 +463,7 @@ thead{
 }
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 0px;
     position: fixed;
     z-index: 1;
     top: 0;
