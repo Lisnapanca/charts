@@ -308,3 +308,9 @@
 .period-trans{
   background-color: transparent;
 }
+.highcharts-background{
+  fill: transparent;
+}
+#content5-chart .highcharts-background{
+  fill: white;
+}
