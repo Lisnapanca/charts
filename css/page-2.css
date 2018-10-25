@@ -13,10 +13,7 @@
 .container-fluid{
   width: 100%;
   height: auto;
- background: #114357;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+ background-color: rgb(243, 243, 242);
   margin-top: -20px;
 }
 #content-1-chart, #content-2-chart, #content-3-chart{
@@ -170,9 +167,7 @@ background-color: white;
     z-index: 1;
     top: 0;
     left: 0;
-    background: #D66D75;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(243, 243, 242);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -182,7 +177,7 @@ background-color: white;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: black;
     display: block;
     transition: 0.3s;
     font-family: 'Fjalla One', sans-serif;
@@ -348,6 +343,9 @@ opacity:0.5;
 }
 #Group_83 #Line_10,{
   stroke: black;
+}
+.content-3 .category-text{
+  color: white;
 }
 @media only screen and (max-width: 1440px){
   .pie-chart-thickness{

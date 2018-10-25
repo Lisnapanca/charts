@@ -13,10 +13,7 @@
 .container-fluid{
   width: 100%;
   height: auto;
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: rgb(243, 243, 242);
   margin-top: -20px;
 }
 .content-1{
@@ -416,9 +413,7 @@ hr{
     z-index: 1;
     top: 0;
     left: 0;
-    background: #D66D75;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(243, 243, 242);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -428,7 +423,7 @@ hr{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: black;
     display: block;
     transition: 0.3s;
     font-family: 'Fjalla One', sans-serif;
@@ -449,6 +444,9 @@ hr{
 .sidenav h3{
   padding-top: 15px;
 }
+#job-chart3-6 .highcharts-background,#job-chart3-7 .highcharts-background{
+  fill: transparent;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -468,4 +466,47 @@ hr{
 }
 .content9-table{
   padding-bottom: 20px;
+}
+@media screen and (max-width: 1440px){
+  .president-photos, #number, #trophy, #losing, #comparison {
+    width: 190px;
+    border-radius: 50%;
+    height: 190px;
+    margin: 10px;
+    margin-left: 0px;
+    object-fit: cover;
+    margin-top: 46px;
+  }
+  #candidate-1, #candidate-2 {
+    margin: 20px 0px 20px 2px;
+  }
+  .category{
+        padding-bottom: 25px;
+  }
+  .img-inside-pie {
+    width: 135px;
+    height: 135px;
+  }
+  #content2-chart8, #content2-chart10 {
+    width: 220px;
+    border-radius: 50%;
+    height: 250px;
+    margin: 10px;
+    margin-left: -5px;
+    padding-top: 5px;
+  }
+  .positive-dot, .negative-dot, .neutral-dot {
+    margin-left: -38px;
+  }
+  .category-text {
+    padding-left: 5px;
+    font-size: 12px;
+    padding-top: 1px;
+  }
+  /*.content5-3-2 .positive-dot,.content5-3-2 .negative-dot,.content5-3-2 .neutral-dot{
+    margin-left: -2px;
+  }*/
+  #candidate1, #candidate2, #total {
+    margin-left: 35px;
+  }
 }

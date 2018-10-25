@@ -14,10 +14,7 @@
 .container-fluid{
   width: 100%;
   height: auto;
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: rgb(243, 243, 242);
   margin-top: -20px;
 }
 .content1{
@@ -316,9 +313,7 @@ thead{
     z-index: 1;
     top: 0;
     left: 0;
-    background: #D66D75;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(243, 243, 242);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -328,7 +323,7 @@ thead{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: black;
     display: block;
     transition: 0.3s;
     font-family: 'Fjalla One', sans-serif;
