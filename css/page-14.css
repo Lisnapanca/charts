@@ -193,7 +193,7 @@ thead{
 
 .highcharts-color-0 .highcharts-area {
   fill-opacity: 0.5;
-  fill: #ffc39e;
+  /*fill: #ffc39e;*/
 }
 .highcharts-color-0 .highcharts-area{
   fill-opacity:1;
@@ -372,9 +372,6 @@ thead{
 .highcharts-tracker{
   fill: red;
 }
-.highcharts-series-0 .highcharts-point{
-  fill: #ffc39e;
-}
 .sidenav {
     height: 100%;
     width: 0px;
@@ -425,4 +422,7 @@ thead{
 }
 .period-trans{
   background-color: transparent;
+}
+.highcharts-header{
+  display: none;
 }

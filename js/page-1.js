@@ -1,4 +1,4 @@
-Highcharts.chart('job-chart1', {
+Highcharts.chart('content2-chart1', {
   title: {
         text: ''
     },
@@ -40,7 +40,7 @@ Highcharts.chart('job-chart1', {
 
   }]
 });
-Highcharts.chart('job-chart2', {
+Highcharts.chart('content2-chart2', {
   title: {
         text: ''
     },
@@ -82,7 +82,7 @@ Highcharts.chart('job-chart2', {
 
   }]
 });
-Highcharts.chart('job-chart3', {
+Highcharts.chart('content2-chart3', {
   title: {
         text: ''
     },
@@ -124,7 +124,7 @@ Highcharts.chart('job-chart3', {
 
   }]
 });
-Highcharts.chart('job-chart4', {
+Highcharts.chart('content5-chart1', {
   title: {
         text: ' '
     },
@@ -166,7 +166,7 @@ Highcharts.chart('job-chart4', {
 
   }]
 });
-Highcharts.chart('job-chart5', {
+Highcharts.chart('content5-chart2', {
   title: {
         text: ''
     },
@@ -208,7 +208,7 @@ Highcharts.chart('job-chart5', {
 
   }]
 });
-Highcharts.chart('job-chart6', {
+Highcharts.chart('content5-chart3', {
   title: {
         text: ''
     },

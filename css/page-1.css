@@ -71,7 +71,7 @@
   font-size:20px;
   cursor: pointer;
 }
-#job-chart1, #job-chart2, #job-chart3, #job-chart4, #job-chart5, #job-chart6, #job-chart3-1, #job-chart3-2, #job-chart3-3{
+#content2-chart1, #content2-chart2, #content2-chart3, #content5-chart1, #content5-chart2, #content5-chart3, #job-chart3-1, #job-chart3-2, #job-chart3-3{
   width: 250px;
   height: 200px;
   float: right;
@@ -86,21 +86,21 @@
 .percentage{
   font-size:15px;
 }
-#job-chart2, #job-chart3, #job-chart3-2, #job-chart3-3{
+#content2-chart2, #content2-chart3, #job-chart3-2, #job-chart3-3{
   margin-top: -164px;
 }
-#job-chart4, #job-chart5, #job-chart6{
+#content5-chart1, #content5-chart2, #content5-chart3{
   width: calc(100% + 100px);
   height: 150px;
   margin-top: 10px;
 }
 @media only screen and (max-width: 1366px){
-  #job-chart4, #job-chart5, #job-chart6{
+  #content5-chart1, #content5-chart2, #content5-chart3{
     width: calc(100% + 25px)!important;
   }
 }
 @media only screen and (max-width: 1700px){
-  #job-chart4, #job-chart5, #job-chart6{
+  #content5-chart1, #content5-chart2, #content5-chart3{
     width: calc(100% + 50px)!important;
   }
 }
@@ -224,31 +224,31 @@
 #chart-content2 {
   fill: #f99180;
 }
-#job-chart2 #chart-content2 {
+#content2-chart2 #chart-content2 {
   fill: #fcce86;
 }
-#job-chart3 #chart-content2 {
+#content2-chart3 #chart-content2 {
   fill: #c6fedc;
 }
-#job-chart5 .highcharts-color-0{
+#content5-chart2 .highcharts-color-0{
   fill:#ffcc00;
 }
-#job-chart1 .highcharts-axis-line,#job-chart1 .highcharts-yaxis-grid,#job-chart1 .highcharts-yaxis,#job-chart1 .highcharts-yaxis-labels,#job-chart1 .highcharts-axis-labels,#job-chart1 .highcharts-xaxis{
+#content2-chart1 .highcharts-axis-line,#content2-chart1 .highcharts-yaxis-grid,#content2-chart1 .highcharts-yaxis,#content2-chart1 .highcharts-yaxis-labels,#content2-chart1 .highcharts-axis-labels,#content2-chart1 .highcharts-xaxis{
   display: none;
 }
-#job-chart2 .highcharts-axis-line,#job-chart2 .highcharts-yaxis-grid,#job-chart2 .highcharts-yaxis,#job-chart2 .highcharts-yaxis-labels,#job-chart2 .highcharts-axis-labels,#job-chart2 .highcharts-xaxis{
+#content2-chart2 .highcharts-axis-line,#content2-chart2 .highcharts-yaxis-grid,#content2-chart2 .highcharts-yaxis,#content2-chart2 .highcharts-yaxis-labels,#content2-chart2 .highcharts-axis-labels,#content2-chart2 .highcharts-xaxis{
   display: none;
 }
-#job-chart3 .highcharts-axis-line,#job-chart3 .highcharts-yaxis-grid,#job-chart3 .highcharts-yaxis,#job-chart3 .highcharts-yaxis-labels,#job-chart3 .highcharts-axis-labels,#job-chart3 .highcharts-xaxis{
+#content2-chart3 .highcharts-axis-line,#content2-chart3 .highcharts-yaxis-grid,#content2-chart3 .highcharts-yaxis,#content2-chart3 .highcharts-yaxis-labels,#content2-chart3 .highcharts-axis-labels,#content2-chart3 .highcharts-xaxis{
   display: none;
 }
-#job-chart4 .highcharts-yaxis,#job-chart4 .highcharts-yaxis-labels,#job-chart4 .highcharts-yaxis-grid,#job-chart4 .highcharts-xaxis-labels,#job-chart4 .highcharts-xaxis{
+#content5-chart1 .highcharts-yaxis,#content5-chart1 .highcharts-yaxis-labels,#content5-chart1 .highcharts-yaxis-grid,#content5-chart1 .highcharts-xaxis-labels,#content5-chart1 .highcharts-xaxis{
   display: none;
 }
-#job-chart5 .highcharts-yaxis,#job-chart5 .highcharts-yaxis-labels,#job-chart5 .highcharts-yaxis-grid,#job-chart5 .highcharts-xaxis-labels,#job-chart5 .highcharts-xaxis{
+#content5-chart2 .highcharts-yaxis,#content5-chart2 .highcharts-yaxis-labels,#content5-chart2 .highcharts-yaxis-grid,#content5-chart2 .highcharts-xaxis-labels,#content5-chart2 .highcharts-xaxis{
   display: none;
 }
-#job-chart6 .highcharts-yaxis,#job-chart6 .highcharts-yaxis-labels,#job-chart6 .highcharts-yaxis-grid,#job-chart6 .highcharts-xaxis-labels,#job-chart6 .highcharts-xaxis{
+#content5-chart3 .highcharts-yaxis,#content5-chart3 .highcharts-yaxis-labels,#content5-chart3 .highcharts-yaxis-grid,#content5-chart3 .highcharts-xaxis-labels,#content5-chart3 .highcharts-xaxis{
   display: none;
 }
 #content5-chart .highcharts-yaxis-labels,#content5-chart .highcharts-xaxis-labels,#content3-chart .highcharts-xaxis-labels,#content3-chart .highcharts-yaxis-labels{
